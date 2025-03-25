@@ -1,0 +1,1172 @@
+2025-03-25 23:46:19.071 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 23:46:19.193 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-25 23:46:19.219 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-25 23:46:19.220 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-25 23:46:19.221 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 23:46:19.222 +02:00 [INF] Hosting environment: Development
+2025-03-25 23:46:19.222 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-25 23:46:19.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-25 23:46:19.751 +02:00 [INF] Request: GET /
+2025-03-25 23:46:19.764 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 26.683ms
+2025-03-25 23:46:19.773 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-25 23:46:23.741 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-25 23:46:23.752 +02:00 [INF] Request: GET /admin/home/index
+2025-03-25 23:46:23.756 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-25 23:46:23.765 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-25 23:46:23.766 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 25.2747ms
+2025-03-25 23:46:23.768 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-25 23:46:23.769 +02:00 [INF] Request: GET /Account/Login
+2025-03-25 23:46:23.770 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 404 0 null 2.3143ms
+2025-03-25 23:46:23.773 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/Login, Response status code: 404
+2025-03-25 23:46:24.891 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-25 23:46:24.893 +02:00 [INF] Request: GET /admin/home/index
+2025-03-25 23:46:24.894 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-25 23:46:24.897 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-25 23:46:24.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 6.4963ms
+2025-03-25 23:46:24.900 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-25 23:46:24.901 +02:00 [INF] Request: GET /Account/Login
+2025-03-25 23:46:24.902 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 404 0 null 1.8039ms
+2025-03-25 23:46:24.903 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/Login, Response status code: 404
+2025-03-25 23:46:26.841 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-25 23:46:26.843 +02:00 [INF] Request: GET /
+2025-03-25 23:46:26.845 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 3.7582ms
+2025-03-25 23:46:26.847 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-25 23:46:34.874 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/privacy - null null
+2025-03-25 23:46:34.875 +02:00 [INF] Request: GET /home/privacy
+2025-03-25 23:46:34.877 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/privacy - 404 0 null 3.1349ms
+2025-03-25 23:46:34.880 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/privacy, Response status code: 404
+2025-03-25 23:46:43.458 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/privacy - null null
+2025-03-25 23:46:43.460 +02:00 [INF] Request: GET /admin/home/privacy
+2025-03-25 23:46:43.464 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject)'
+2025-03-25 23:46:43.482 +02:00 [INF] Route matched with {area = "Admin", action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-25 23:46:43.491 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject) - Validation state: "Valid"
+2025-03-25 23:46:43.495 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.34ms.
+2025-03-25 23:46:43.504 +02:00 [INF] Executing ViewResult, running view Privacy.
+2025-03-25 23:46:43.562 +02:00 [INF] Executed ViewResult - view Privacy executed in 59.3114ms.
+2025-03-25 23:46:43.566 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject) in 82.8796ms
+2025-03-25 23:46:43.568 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject)'
+2025-03-25 23:46:43.571 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/privacy - 200 null text/html; charset=utf-8 112.2813ms
+2025-03-25 23:46:43.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-25 23:46:43.582 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-25 23:46:43.582 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-25 23:46:43.582 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-25 23:46:43.582 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-25 23:46:43.582 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-25 23:46:43.618 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-25 23:46:43.618 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-25 23:46:43.618 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-25 23:46:43.624 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-25 23:46:43.624 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-25 23:46:43.624 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-25 23:46:43.624 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 42.4421ms
+2025-03-25 23:46:43.624 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 200 2275 text/css 42.4839ms
+2025-03-25 23:46:43.624 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 42.4834ms
+2025-03-25 23:46:43.625 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 43.0148ms
+2025-03-25 23:46:43.625 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 43.6034ms
+2025-03-25 23:46:43.626 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 50.2481ms
+2025-03-25 23:46:45.976 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Admin - null null
+2025-03-25 23:46:45.979 +02:00 [INF] Request: GET /Admin
+2025-03-25 23:46:45.979 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-25 23:46:45.980 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-25 23:46:45.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Admin - 302 0 null 4.8972ms
+2025-03-25 23:46:45.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin - null null
+2025-03-25 23:46:45.983 +02:00 [INF] Request: GET /Account/Login
+2025-03-25 23:46:45.983 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin - 404 0 null 1.4371ms
+2025-03-25 23:46:45.985 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/Login, Response status code: 404
+2025-03-25 23:47:22.548 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 23:47:22.653 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-25 23:47:22.685 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-25 23:47:22.686 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-25 23:47:22.687 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 23:47:22.688 +02:00 [INF] Hosting environment: Development
+2025-03-25 23:47:22.688 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-25 23:47:23.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-25 23:47:23.315 +02:00 [INF] Request: GET /
+2025-03-25 23:47:23.328 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-25 23:47:23.337 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-25 23:47:23.339 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 39.5434ms
+2025-03-25 23:47:23.352 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-25 23:47:23.363 +02:00 [INF] Request: GET /Account/Login
+2025-03-25 23:47:23.366 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 404 0 null 13.7231ms
+2025-03-25 23:47:23.368 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/Login, Response status code: 404
+2025-03-26 00:09:54.462 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-26 00:09:54.585 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-26 00:09:54.622 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-26 00:09:54.623 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-26 00:09:54.624 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 00:09:54.625 +02:00 [INF] Hosting environment: Development
+2025-03-26 00:09:54.625 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-26 00:09:55.191 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:09:55.203 +02:00 [INF] Request: GET /
+2025-03-26 00:09:55.217 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:09:55.229 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:09:55.232 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 42.2324ms
+2025-03-26 00:09:55.245 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:09:55.253 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:09:55.259 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:09:55.284 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:09:55.302 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:09:55.308 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9786ms.
+2025-03-26 00:09:55.318 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:09:55.365 +02:00 [INF] Executed ViewResult - view Login executed in 48.9395ms.
+2025-03-26 00:09:55.370 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:09:55.371 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:09:55.371 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:09:55.370 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:09:55.371 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 85.6269ms
+2025-03-26 00:09:55.385 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:09:55.410 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 165.3704ms
+2025-03-26 00:09:55.428 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:09:55.428 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:09:55.430 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 59.3691ms
+2025-03-26 00:09:55.431 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:09:55.431 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:09:55.434 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 63.96ms
+2025-03-26 00:09:55.440 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:09:55.431 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 59.7954ms
+2025-03-26 00:09:55.432 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:09:55.441 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:09:55.442 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 10.5952ms
+2025-03-26 00:09:55.445 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:09:55.445 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 74.9932ms
+2025-03-26 00:09:55.447 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 15.2236ms
+2025-03-26 00:09:55.473 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:09:55.473 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:09:55.475 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:09:55.476 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 3.8109ms
+2025-03-26 00:09:55.478 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:09:55.485 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:09:55.487 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 9.0589ms
+2025-03-26 00:09:55.491 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:09:55.494 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:09:55.496 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 4.8111ms
+2025-03-26 00:09:55.514 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:09:55.515 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 41.9943ms
+2025-03-26 00:09:55.546 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:09:55.548 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:09:55.549 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 2.6483ms
+2025-03-26 00:09:55.549 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:09:55.552 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:09:55.552 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 2.7724ms
+2025-03-26 00:09:55.555 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:09:55.558 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:09:55.558 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 3.1101ms
+2025-03-26 00:09:55.560 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:09:55.562 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:09:55.562 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 2.4742ms
+2025-03-26 00:09:55.564 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:09:55.565 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:09:55.566 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 2.276ms
+2025-03-26 00:09:55.648 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:09:55.661 +02:00 [INF] Sending file. Request path: '/assets/media/auth/bg10.jpeg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\bg10.jpeg'
+2025-03-26 00:09:55.661 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:09:55.662 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/bg10.jpeg - 200 26080 image/jpeg 13.931ms
+2025-03-26 00:09:55.666 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:09:55.666 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 5.3073ms
+2025-03-26 00:09:55.945 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/logos/favicon.ico - null null
+2025-03-26 00:09:55.955 +02:00 [INF] Sending file. Request path: '/assets/media/logos/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\logos\favicon.ico'
+2025-03-26 00:09:55.956 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/logos/favicon.ico - 200 18278 image/x-icon 10.9754ms
+2025-03-26 00:19:11.047 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-26 00:19:11.158 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-26 00:19:11.190 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-26 00:19:11.191 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-26 00:19:11.192 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 00:19:11.193 +02:00 [INF] Hosting environment: Development
+2025-03-26 00:19:11.193 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-26 00:19:11.652 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:19:11.665 +02:00 [INF] Request: GET /
+2025-03-26 00:19:11.681 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:19:11.693 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:19:11.695 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 45.9971ms
+2025-03-26 00:19:11.708 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:19:11.975 +02:00 [ERR] An unhandled exception occurred in Unknown/Unknown.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+BaseProject.Controllers.AccountController.Login (BaseProject)
+BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-26 00:19:12.022 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 500 null text/plain 314.1997ms
+2025-03-26 00:19:23.932 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login - null null
+2025-03-26 00:19:23.956 +02:00 [ERR] An unhandled exception occurred in Unknown/Unknown.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+BaseProject.Controllers.AccountController.Login (BaseProject)
+BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-26 00:19:23.958 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login - 500 null text/plain 26.3197ms
+2025-03-26 00:19:29.077 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Admin/Account/Login - null null
+2025-03-26 00:19:29.079 +02:00 [INF] Request: GET /Admin/Account/Login
+2025-03-26 00:19:29.082 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Admin/Account/Login - 404 0 null 4.7802ms
+2025-03-26 00:19:29.085 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Admin/Account/Login, Response status code: 404
+2025-03-26 00:19:32.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login - null null
+2025-03-26 00:19:32.309 +02:00 [ERR] An unhandled exception occurred in Unknown/Unknown.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+BaseProject.Controllers.AccountController.Login (BaseProject)
+BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-26 00:19:32.310 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login - 500 null text/plain 20.0032ms
+2025-03-26 00:20:08.968 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-26 00:20:09.076 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-26 00:20:09.114 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-26 00:20:09.115 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-26 00:20:09.117 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 00:20:09.119 +02:00 [INF] Hosting environment: Development
+2025-03-26 00:20:09.119 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-26 00:20:09.512 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:20:09.533 +02:00 [INF] Request: GET /
+2025-03-26 00:20:09.549 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:20:09.569 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:20:09.573 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 62.9171ms
+2025-03-26 00:20:09.589 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:20:09.601 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:20:09.606 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:20:09.630 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:20:09.647 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:20:09.654 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.7921ms.
+2025-03-26 00:20:09.662 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:20:09.704 +02:00 [INF] Executed ViewResult - view Login executed in 41.8976ms.
+2025-03-26 00:20:09.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:20:09.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:20:09.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:20:09.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:20:09.714 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 82.3401ms
+2025-03-26 00:20:09.723 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:20:09.736 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 144.3866ms
+2025-03-26 00:20:09.772 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:20:09.772 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:20:09.774 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 65.3204ms
+2025-03-26 00:20:09.776 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:20:09.777 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:20:09.779 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 70.0508ms
+2025-03-26 00:20:09.782 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:20:09.776 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 66.4842ms
+2025-03-26 00:20:09.777 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:20:09.783 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:20:09.784 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 7.0064ms
+2025-03-26 00:20:09.787 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:20:09.787 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 78.2272ms
+2025-03-26 00:20:09.789 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 12.2175ms
+2025-03-26 00:20:09.817 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:20:09.817 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:20:09.820 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:20:09.822 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 5.0284ms
+2025-03-26 00:20:09.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:20:09.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:20:09.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:20:09.823 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:20:09.832 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:20:09.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:20:09.834 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 11.7006ms
+2025-03-26 00:20:09.838 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:20:09.835 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:20:09.840 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 17.6404ms
+2025-03-26 00:20:09.841 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 18.4204ms
+2025-03-26 00:20:09.835 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:20:09.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:20:09.849 +02:00 [INF] Sending file. Request path: '/assets/media/auth/bg10.jpeg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\bg10.jpeg'
+2025-03-26 00:20:09.827 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:20:09.851 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/bg10.jpeg - 200 26080 image/jpeg 15.8802ms
+2025-03-26 00:20:09.851 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:20:09.852 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 29.5764ms
+2025-03-26 00:20:09.855 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 32.7916ms
+2025-03-26 00:20:09.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:20:09.833 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:20:09.860 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:20:09.861 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:20:09.861 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 39.0802ms
+2025-03-26 00:20:09.862 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 44.5025ms
+2025-03-26 00:20:09.862 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 39.9184ms
+2025-03-26 00:20:09.896 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:20:09.903 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:20:09.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 10.2125ms
+2025-03-26 00:20:10.138 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/logos/favicon.ico - null null
+2025-03-26 00:20:10.141 +02:00 [INF] Sending file. Request path: '/assets/media/logos/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\logos\favicon.ico'
+2025-03-26 00:20:10.142 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/logos/favicon.ico - 200 18278 image/x-icon 3.8282ms
+2025-03-26 00:20:16.495 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Admin/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:20:16.497 +02:00 [INF] Request: GET /Admin/Account/Login
+2025-03-26 00:20:16.498 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-26 00:20:16.500 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:20:16.501 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Admin/Account/Login?ReturnUrl=%2F - 302 0 null 5.9193ms
+2025-03-26 00:20:16.502 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - null null
+2025-03-26 00:20:16.504 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:20:16.504 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:20:16.505 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:20:16.506 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:20:16.507 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0276ms.
+2025-03-26 00:20:16.508 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:20:16.511 +02:00 [INF] Executed ViewResult - view Login executed in 3.1289ms.
+2025-03-26 00:20:16.511 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 5.4944ms
+2025-03-26 00:20:16.512 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:20:16.513 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - 200 null text/html; charset=utf-8 10.398ms
+2025-03-26 00:20:27.224 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Admin/home/index - null null
+2025-03-26 00:20:27.226 +02:00 [INF] Request: GET /Admin/home/index
+2025-03-26 00:20:27.228 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-26 00:20:27.229 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:20:27.229 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Admin/home/index - 302 0 null 5.4801ms
+2025-03-26 00:20:27.230 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin%2Fhome%2Findex - null null
+2025-03-26 00:20:27.231 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:20:27.232 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:20:27.233 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:20:27.235 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:20:27.235 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0266ms.
+2025-03-26 00:20:27.236 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:20:27.238 +02:00 [INF] Executed ViewResult - view Login executed in 2.0906ms.
+2025-03-26 00:20:27.239 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 4.7998ms
+2025-03-26 00:20:27.240 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:20:27.241 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin%2Fhome%2Findex - 200 null text/html; charset=utf-8 10.1489ms
+2025-03-26 00:21:08.514 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-26 00:21:08.635 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-26 00:21:08.675 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-26 00:21:08.676 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-26 00:21:08.677 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 00:21:08.678 +02:00 [INF] Hosting environment: Development
+2025-03-26 00:21:08.678 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-26 00:21:09.140 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:21:09.155 +02:00 [INF] Request: GET /
+2025-03-26 00:21:09.171 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:21:09.180 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:21:09.185 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 45.0474ms
+2025-03-26 00:21:09.198 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:21:09.212 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:21:09.214 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:09.240 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:09.261 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:09.266 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6966ms.
+2025-03-26 00:21:09.274 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:21:09.316 +02:00 [INF] Executed ViewResult - view Login executed in 42.4155ms.
+2025-03-26 00:21:09.322 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 79.8975ms
+2025-03-26 00:21:09.324 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:09.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:21:09.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:21:09.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:21:09.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:21:09.341 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 142.8623ms
+2025-03-26 00:21:09.397 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:21:09.397 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:21:09.398 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 71.0411ms
+2025-03-26 00:21:09.400 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 72.6255ms
+2025-03-26 00:21:09.403 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:21:09.406 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:21:09.397 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:21:09.402 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:21:09.408 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:21:09.408 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 80.5159ms
+2025-03-26 00:21:09.408 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 81.2071ms
+2025-03-26 00:21:09.410 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:21:09.410 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 7.2834ms
+2025-03-26 00:21:09.413 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 10.8796ms
+2025-03-26 00:21:09.441 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:21:09.441 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:21:09.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:21:09.444 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:21:09.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:21:09.448 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 6.4786ms
+2025-03-26 00:21:09.452 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:21:09.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:21:09.455 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 11.0139ms
+2025-03-26 00:21:09.458 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:21:09.459 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:21:09.468 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 24.9142ms
+2025-03-26 00:21:09.471 +02:00 [INF] Sending file. Request path: '/assets/media/auth/bg10.jpeg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\bg10.jpeg'
+2025-03-26 00:21:09.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:21:09.474 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/bg10.jpeg - 200 26080 image/jpeg 15.3404ms
+2025-03-26 00:21:09.447 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:21:09.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:21:09.479 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 35.798ms
+2025-03-26 00:21:09.482 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:21:09.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:21:09.486 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 42.6846ms
+2025-03-26 00:21:09.489 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:21:09.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:21:09.491 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 48.0841ms
+2025-03-26 00:21:09.477 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:21:09.497 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:21:09.497 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 53.5959ms
+2025-03-26 00:21:09.497 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:21:09.498 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 56.2539ms
+2025-03-26 00:21:09.500 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 56.6679ms
+2025-03-26 00:21:09.522 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:21:09.525 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:21:09.526 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 4.5754ms
+2025-03-26 00:21:20.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Admin/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:21:20.788 +02:00 [INF] Request: GET /Admin/Account/Login
+2025-03-26 00:21:20.791 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-26 00:21:20.792 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:21:20.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Admin/Account/Login?ReturnUrl=%2F - 302 0 null 9.341ms
+2025-03-26 00:21:20.794 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - null null
+2025-03-26 00:21:20.796 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:21:20.797 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:20.797 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:20.798 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:20.799 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1141ms.
+2025-03-26 00:21:20.801 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:21:20.805 +02:00 [INF] Executed ViewResult - view Login executed in 4.323ms.
+2025-03-26 00:21:20.806 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 7.9837ms
+2025-03-26 00:21:20.806 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:20.807 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - 200 null text/html; charset=utf-8 12.7683ms
+2025-03-26 00:21:27.287 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Signup?returnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - null null
+2025-03-26 00:21:27.289 +02:00 [INF] Request: GET /Account/Signup
+2025-03-26 00:21:27.290 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Signup (BaseProject)'
+2025-03-26 00:21:27.292 +02:00 [INF] Route matched with {action = "Signup", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:27.293 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Signup (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:27.293 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Signup (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1417ms.
+2025-03-26 00:21:27.294 +02:00 [INF] Executing ViewResult, running view Signup.
+2025-03-26 00:21:27.304 +02:00 [INF] Executed ViewResult - view Signup executed in 9.8867ms.
+2025-03-26 00:21:27.305 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Signup (BaseProject) in 12.1735ms
+2025-03-26 00:21:27.305 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Signup (BaseProject)'
+2025-03-26 00:21:27.306 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Signup?returnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - 200 null text/html; charset=utf-8 19.5272ms
+2025-03-26 00:21:27.362 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:21:27.364 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:21:27.364 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 2.7454ms
+2025-03-26 00:21:27.368 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:21:27.370 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-up/general.js - null null
+2025-03-26 00:21:27.372 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-up/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-up\general.js'
+2025-03-26 00:21:27.373 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-up/general.js - 200 14160 text/javascript 3.4589ms
+2025-03-26 00:21:28.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?returnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - null null
+2025-03-26 00:21:28.910 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:21:28.910 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:28.911 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:28.912 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:28.912 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0113ms.
+2025-03-26 00:21:28.913 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:21:28.914 +02:00 [INF] Executed ViewResult - view Login executed in 1.4386ms.
+2025-03-26 00:21:28.915 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 3.4569ms
+2025-03-26 00:21:28.916 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:28.917 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?returnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - 200 null text/html; charset=utf-8 9.3222ms
+2025-03-26 00:21:33.671 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Signup?returnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - null null
+2025-03-26 00:21:33.673 +02:00 [INF] Request: GET /Account/Signup
+2025-03-26 00:21:33.673 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Signup (BaseProject)'
+2025-03-26 00:21:33.674 +02:00 [INF] Route matched with {action = "Signup", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:33.675 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Signup (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:33.676 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Signup (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0139ms.
+2025-03-26 00:21:33.676 +02:00 [INF] Executing ViewResult, running view Signup.
+2025-03-26 00:21:33.678 +02:00 [INF] Executed ViewResult - view Signup executed in 2.0611ms.
+2025-03-26 00:21:33.679 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Signup (BaseProject) in 3.8487ms
+2025-03-26 00:21:33.680 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Signup (BaseProject)'
+2025-03-26 00:21:33.680 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Signup?returnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - 200 null text/html; charset=utf-8 9.2969ms
+2025-03-26 00:21:33.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:21:33.737 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:21:33.738 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 1.8662ms
+2025-03-26 00:21:33.739 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:21:36.218 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?returnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - null null
+2025-03-26 00:21:36.220 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:21:36.220 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:36.221 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:36.222 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:36.223 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0161ms.
+2025-03-26 00:21:36.223 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:21:36.225 +02:00 [INF] Executed ViewResult - view Login executed in 1.5307ms.
+2025-03-26 00:21:36.225 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 3.4392ms
+2025-03-26 00:21:36.226 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:36.226 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?returnUrl=%2FAdmin%2FAccount%2FLogin%3FReturnUrl%3D%252F - 200 null text/html; charset=utf-8 8.5977ms
+2025-03-26 00:21:39.450 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:21:39.452 +02:00 [INF] Request: GET /
+2025-03-26 00:21:39.453 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:21:39.454 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:21:39.454 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 4.1708ms
+2025-03-26 00:21:39.456 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:21:39.457 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:21:39.457 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:39.458 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:39.458 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:39.459 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0121ms.
+2025-03-26 00:21:39.459 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:21:39.461 +02:00 [INF] Executed ViewResult - view Login executed in 1.5208ms.
+2025-03-26 00:21:39.461 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 3.2838ms
+2025-03-26 00:21:39.462 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:39.463 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 7.2142ms
+2025-03-26 00:21:40.041 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:21:40.043 +02:00 [INF] Request: GET /
+2025-03-26 00:21:40.044 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:21:40.044 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:21:40.045 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 4.0493ms
+2025-03-26 00:21:40.046 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:21:40.047 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:21:40.048 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:40.049 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:40.050 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:40.050 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0185ms.
+2025-03-26 00:21:40.051 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:21:40.053 +02:00 [INF] Executed ViewResult - view Login executed in 1.7598ms.
+2025-03-26 00:21:40.053 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 3.7354ms
+2025-03-26 00:21:40.054 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:40.055 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 8.4232ms
+2025-03-26 00:21:40.973 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:21:40.975 +02:00 [INF] Request: GET /
+2025-03-26 00:21:40.975 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:21:40.976 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:21:40.976 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 3.4551ms
+2025-03-26 00:21:40.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:21:40.979 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:21:40.979 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:40.979 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:21:40.980 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:21:40.981 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.012ms.
+2025-03-26 00:21:40.981 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:21:40.984 +02:00 [INF] Executed ViewResult - view Login executed in 2.7175ms.
+2025-03-26 00:21:40.985 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 5.2752ms
+2025-03-26 00:21:40.986 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:21:40.987 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 9.1283ms
+2025-03-26 00:24:03.127 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-26 00:24:03.236 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-26 00:24:03.268 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-26 00:24:03.269 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-26 00:24:03.270 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 00:24:03.271 +02:00 [INF] Hosting environment: Development
+2025-03-26 00:24:03.271 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-26 00:24:03.840 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:24:03.858 +02:00 [INF] Request: GET /
+2025-03-26 00:24:03.876 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:24:03.888 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:24:03.892 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 52.5557ms
+2025-03-26 00:24:03.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:24:03.921 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:24:03.924 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:24:03.945 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:24:03.962 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:24:03.967 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6824ms.
+2025-03-26 00:24:03.976 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:24:04.021 +02:00 [INF] Executed ViewResult - view Login executed in 45.9097ms.
+2025-03-26 00:24:04.025 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 78.224ms
+2025-03-26 00:24:04.027 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:24:04.027 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:24:04.027 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:24:04.027 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:24:04.027 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:24:04.046 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 135.6967ms
+2025-03-26 00:24:04.089 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:24:04.089 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:24:04.090 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 63.6699ms
+2025-03-26 00:24:04.092 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:24:04.092 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:24:04.096 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:24:04.091 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 64.7194ms
+2025-03-26 00:24:04.090 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:24:04.098 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:24:04.099 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 6.5357ms
+2025-03-26 00:24:04.098 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:24:04.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 74.3299ms
+2025-03-26 00:24:04.102 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:24:04.102 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 75.0785ms
+2025-03-26 00:24:04.104 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 11.3437ms
+2025-03-26 00:24:04.107 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:24:04.110 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 7.894ms
+2025-03-26 00:24:04.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:24:04.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:24:04.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:24:04.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:24:04.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:24:04.153 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:24:04.156 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:24:04.157 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:24:04.157 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 11.4914ms
+2025-03-26 00:24:04.159 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 13.8027ms
+2025-03-26 00:24:04.163 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:24:04.158 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 14.7658ms
+2025-03-26 00:24:04.153 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:24:04.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:24:04.170 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:24:04.169 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 23.9814ms
+2025-03-26 00:24:04.173 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 10.6549ms
+2025-03-26 00:24:04.173 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:24:04.177 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:24:04.177 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 32.0741ms
+2025-03-26 00:24:04.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:24:04.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:24:04.188 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:24:04.189 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:24:04.189 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 43.7385ms
+2025-03-26 00:24:04.190 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:24:04.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 44.7742ms
+2025-03-26 00:24:04.192 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 49.2034ms
+2025-03-26 00:24:04.235 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:24:04.243 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:24:04.245 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 10.0092ms
+2025-03-26 00:24:06.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/ForgotPassword?returnUrl=%2F - null null
+2025-03-26 00:24:06.710 +02:00 [INF] Request: GET /Account/ForgotPassword
+2025-03-26 00:24:06.710 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.ForgotPassword (BaseProject)'
+2025-03-26 00:24:06.713 +02:00 [INF] Route matched with {action = "ForgotPassword", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:24:06.714 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.ForgotPassword (BaseProject) - Validation state: "Valid"
+2025-03-26 00:24:06.716 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.ForgotPassword (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7751ms.
+2025-03-26 00:24:06.720 +02:00 [INF] Executing ViewResult, running view ForgotPassword.
+2025-03-26 00:24:06.730 +02:00 [INF] Executed ViewResult - view ForgotPassword executed in 11.3472ms.
+2025-03-26 00:24:06.731 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.ForgotPassword (BaseProject) in 17.7053ms
+2025-03-26 00:24:06.732 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.ForgotPassword (BaseProject)'
+2025-03-26 00:24:06.733 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/ForgotPassword?returnUrl=%2F - 200 null text/html; charset=utf-8 24.6229ms
+2025-03-26 00:24:06.792 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:24:06.794 +02:00 [INF] Sending file. Request path: '/assets/media/auth/bg10.jpeg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\bg10.jpeg'
+2025-03-26 00:24:06.795 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/bg10.jpeg - 200 26080 image/jpeg 3.4365ms
+2025-03-26 00:24:06.819 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/reset-password/new-password.js - null null
+2025-03-26 00:24:06.824 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/reset-password/new-password.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\reset-password\new-password.js'
+2025-03-26 00:24:06.826 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/reset-password/new-password.js - 200 9831 text/javascript 6.6703ms
+2025-03-26 00:24:18.192 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?returnUrl=%2F - null null
+2025-03-26 00:24:18.194 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:24:18.194 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:24:18.195 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:24:18.196 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:24:18.196 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0167ms.
+2025-03-26 00:24:18.197 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:24:18.200 +02:00 [INF] Executed ViewResult - view Login executed in 2.7607ms.
+2025-03-26 00:24:18.201 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 5.0156ms
+2025-03-26 00:24:18.202 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:24:18.202 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?returnUrl=%2F - 200 null text/html; charset=utf-8 10.9067ms
+2025-03-26 00:24:18.266 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:24:18.269 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:24:18.270 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 4.414ms
+2025-03-26 00:24:18.273 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:24:22.655 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Signup?returnUrl=%2F - null null
+2025-03-26 00:24:22.656 +02:00 [INF] Request: GET /Account/Signup
+2025-03-26 00:24:22.657 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Signup (BaseProject)'
+2025-03-26 00:24:22.659 +02:00 [INF] Route matched with {action = "Signup", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:24:22.660 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Signup (BaseProject) - Validation state: "Valid"
+2025-03-26 00:24:22.661 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Signup (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1304ms.
+2025-03-26 00:24:22.662 +02:00 [INF] Executing ViewResult, running view Signup.
+2025-03-26 00:24:22.670 +02:00 [INF] Executed ViewResult - view Signup executed in 8.4912ms.
+2025-03-26 00:24:22.671 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Signup (BaseProject) in 10.5329ms
+2025-03-26 00:24:22.671 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Signup (BaseProject)'
+2025-03-26 00:24:22.672 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Signup?returnUrl=%2F - 200 null text/html; charset=utf-8 17.2629ms
+2025-03-26 00:24:22.679 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-up/general.js - null null
+2025-03-26 00:24:22.681 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-up/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-up\general.js'
+2025-03-26 00:24:22.683 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-up/general.js - 200 14160 text/javascript 3.8553ms
+2025-03-26 00:24:22.725 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:24:22.727 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:24:22.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 2.2206ms
+2025-03-26 00:24:22.729 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:25:17.741 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?returnUrl=%2F - null null
+2025-03-26 00:25:17.743 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:25:17.744 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:25:17.745 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:25:17.745 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:25:17.746 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0144ms.
+2025-03-26 00:25:17.747 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:25:17.751 +02:00 [INF] Executed ViewResult - view Login executed in 4.2276ms.
+2025-03-26 00:25:17.752 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 6.3555ms
+2025-03-26 00:25:17.752 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:25:17.753 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?returnUrl=%2F - 200 null text/html; charset=utf-8 12.1372ms
+2025-03-26 00:25:17.810 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:25:17.812 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:25:17.812 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 2.1882ms
+2025-03-26 00:25:17.813 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:25:20.460 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/ForgotPassword?returnUrl=%2F - null null
+2025-03-26 00:25:20.462 +02:00 [INF] Request: GET /Account/ForgotPassword
+2025-03-26 00:25:20.463 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.ForgotPassword (BaseProject)'
+2025-03-26 00:25:20.465 +02:00 [INF] Route matched with {action = "ForgotPassword", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:25:20.467 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.ForgotPassword (BaseProject) - Validation state: "Valid"
+2025-03-26 00:25:20.468 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.ForgotPassword (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0275ms.
+2025-03-26 00:25:20.468 +02:00 [INF] Executing ViewResult, running view ForgotPassword.
+2025-03-26 00:25:20.470 +02:00 [INF] Executed ViewResult - view ForgotPassword executed in 1.885ms.
+2025-03-26 00:25:20.475 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.ForgotPassword (BaseProject) in 8.2486ms
+2025-03-26 00:25:20.476 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.ForgotPassword (BaseProject)'
+2025-03-26 00:25:20.476 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/ForgotPassword?returnUrl=%2F - 200 null text/html; charset=utf-8 16.1735ms
+2025-03-26 00:25:38.743 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-26 00:25:38.744 +02:00 [INF] Request: GET /admin/home/index
+2025-03-26 00:25:38.746 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-26 00:25:38.747 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:25:38.748 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 5.5222ms
+2025-03-26 00:25:38.751 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-26 00:25:38.752 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:25:38.753 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:25:38.753 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:25:38.754 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:25:38.755 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0158ms.
+2025-03-26 00:25:38.755 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:25:38.757 +02:00 [INF] Executed ViewResult - view Login executed in 1.5214ms.
+2025-03-26 00:25:38.762 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 7.9483ms
+2025-03-26 00:25:38.763 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:25:38.763 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:25:38.763 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:25:38.770 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 200 null text/html; charset=utf-8 18.1443ms
+2025-03-26 00:25:38.763 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:25:38.763 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:25:38.789 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:25:38.791 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 27.3676ms
+2025-03-26 00:25:38.792 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:25:38.795 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:25:38.796 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:25:38.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 33.89ms
+2025-03-26 00:25:38.803 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 10.1091ms
+2025-03-26 00:25:38.791 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:25:38.807 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:25:38.807 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 44.2116ms
+2025-03-26 00:25:38.808 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 44.7346ms
+2025-03-26 00:25:38.813 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:25:38.815 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:25:38.816 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 2.6374ms
+2025-03-26 00:25:38.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:25:38.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:25:38.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:25:38.837 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:25:38.838 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 7.6912ms
+2025-03-26 00:25:38.851 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:25:38.852 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:25:38.854 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 19.8904ms
+2025-03-26 00:25:38.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:25:38.854 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:25:38.860 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:25:38.860 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 8.8536ms
+2025-03-26 00:25:38.861 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 4.8212ms
+2025-03-26 00:25:38.862 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:25:38.861 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:25:38.869 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:25:38.871 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:25:38.871 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 9.446ms
+2025-03-26 00:25:38.872 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 11.6821ms
+2025-03-26 00:25:38.873 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:25:38.874 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:25:38.880 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:25:38.882 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 9.2858ms
+2025-03-26 00:25:38.882 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:25:38.885 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:25:38.885 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 11.6695ms
+2025-03-26 00:25:38.886 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 55.1053ms
+2025-03-26 00:25:38.966 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:25:38.969 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:25:38.970 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 3.8832ms
+2025-03-26 00:25:38.972 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:25:38.986 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:25:38.992 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:25:38.993 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 7.2994ms
+2025-03-26 00:26:41.660 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-26 00:26:41.669 +02:00 [INF] Request: GET /admin/home/index
+2025-03-26 00:26:41.670 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-26 00:26:41.672 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:26:41.673 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 13.1716ms
+2025-03-26 00:26:41.674 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-26 00:26:41.676 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:26:41.676 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:26:41.677 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:26:41.677 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:26:41.678 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0132ms.
+2025-03-26 00:26:41.679 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:26:41.680 +02:00 [INF] Executed ViewResult - view Login executed in 1.4466ms.
+2025-03-26 00:26:41.681 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 3.6303ms
+2025-03-26 00:26:41.682 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:26:41.683 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 200 null text/html; charset=utf-8 8.1124ms
+2025-03-26 00:26:41.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:26:41.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:26:41.703 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:26:41.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:26:41.704 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 14.7166ms
+2025-03-26 00:26:41.704 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:26:41.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:26:41.712 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 22.9197ms
+2025-03-26 00:26:41.717 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:26:41.708 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:26:41.728 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:26:41.730 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:26:41.731 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 14.7753ms
+2025-03-26 00:26:41.732 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 23.3769ms
+2025-03-26 00:26:41.734 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:26:41.735 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:26:41.738 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:26:41.739 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 50.3374ms
+2025-03-26 00:26:41.740 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 51.2633ms
+2025-03-26 00:26:41.733 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:26:41.749 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:26:41.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 16.6678ms
+2025-03-26 00:26:41.772 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:26:41.773 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 39.1855ms
+2025-03-26 00:26:41.778 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:26:41.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:26:41.783 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:26:41.785 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 7.2505ms
+2025-03-26 00:26:41.785 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:26:41.787 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 4.7641ms
+2025-03-26 00:26:41.788 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:26:41.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:26:41.791 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:26:41.792 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:26:41.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 3.9957ms
+2025-03-26 00:26:41.793 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 4.1824ms
+2025-03-26 00:26:41.793 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:26:41.794 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:26:41.797 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:26:41.799 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:26:41.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 5.2167ms
+2025-03-26 00:26:41.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 4.9488ms
+2025-03-26 00:26:41.801 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:26:41.803 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:26:41.804 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 3.0965ms
+2025-03-26 00:26:41.864 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:26:41.869 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:26:41.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 5.4948ms
+2025-03-26 00:26:41.871 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:26:41.891 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:26:41.895 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:26:41.896 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 4.6076ms
+2025-03-26 00:26:46.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/account/login - null null
+2025-03-26 00:26:46.912 +02:00 [INF] Request: GET /admin/account/login
+2025-03-26 00:26:46.914 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-26 00:26:46.915 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:26:46.916 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/account/login - 302 0 null 5.5427ms
+2025-03-26 00:26:46.918 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Faccount%2Flogin - null null
+2025-03-26 00:26:46.919 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:26:46.919 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:26:46.920 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:26:46.920 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:26:46.921 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0407ms.
+2025-03-26 00:26:46.922 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:26:46.924 +02:00 [INF] Executed ViewResult - view Login executed in 1.7773ms.
+2025-03-26 00:26:46.925 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 4.3754ms
+2025-03-26 00:26:46.925 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:26:46.926 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Faccount%2Flogin - 200 null text/html; charset=utf-8 8.3286ms
+2025-03-26 00:26:46.983 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:26:46.984 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:26:46.985 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 2.1691ms
+2025-03-26 00:26:46.986 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:34:59.832 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-26 00:34:59.837 +02:00 [INF] Request: GET /admin/home/index
+2025-03-26 00:34:59.838 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-26 00:34:59.838 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:34:59.839 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 6.2616ms
+2025-03-26 00:34:59.843 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-26 00:34:59.845 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:34:59.846 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:34:59.847 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:34:59.848 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:34:59.848 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0229ms.
+2025-03-26 00:34:59.849 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:34:59.850 +02:00 [INF] Executed ViewResult - view Login executed in 1.5608ms.
+2025-03-26 00:34:59.855 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 7.7717ms
+2025-03-26 00:34:59.856 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:34:59.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:34:59.860 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 200 null text/html; charset=utf-8 16.2757ms
+2025-03-26 00:34:59.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:34:59.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:34:59.856 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:34:59.871 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:34:59.886 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 29.6429ms
+2025-03-26 00:34:59.888 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:34:59.886 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:34:59.896 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:34:59.896 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 39.8941ms
+2025-03-26 00:34:59.899 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:34:59.898 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:34:59.904 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:34:59.907 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:34:59.908 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 51.8492ms
+2025-03-26 00:34:59.909 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 10.8839ms
+2025-03-26 00:34:59.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 9.74ms
+2025-03-26 00:34:59.906 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:34:59.909 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:34:59.914 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 14.9533ms
+2025-03-26 00:34:59.914 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 58.1733ms
+2025-03-26 00:34:59.939 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:34:59.940 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:34:59.941 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:34:59.947 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:34:59.948 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:34:59.948 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 7.0715ms
+2025-03-26 00:34:59.950 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:34:59.951 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:34:59.955 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:34:59.949 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 9.2665ms
+2025-03-26 00:34:59.956 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 6.6156ms
+2025-03-26 00:34:59.958 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:34:59.956 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:34:59.964 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 13.0669ms
+2025-03-26 00:34:59.964 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:34:59.966 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:34:59.967 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 9.5148ms
+2025-03-26 00:34:59.968 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:34:59.970 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:34:59.974 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:34:59.974 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 8.1949ms
+2025-03-26 00:34:59.975 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 6.7946ms
+2025-03-26 00:34:59.979 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:34:59.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 40.7954ms
+2025-03-26 00:35:00.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:35:00.011 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:35:00.013 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 3.6389ms
+2025-03-26 00:35:00.016 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:35:00.060 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:35:00.067 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:35:00.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 6.9959ms
+2025-03-26 00:35:20.468 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-26 00:35:20.572 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-26 00:35:20.606 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-26 00:35:20.606 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-26 00:35:20.608 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 00:35:20.608 +02:00 [INF] Hosting environment: Development
+2025-03-26 00:35:20.609 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-26 00:35:21.107 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:35:21.123 +02:00 [INF] Request: GET /
+2025-03-26 00:35:21.138 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:35:21.148 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:35:21.152 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 45.4781ms
+2025-03-26 00:35:21.166 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:35:21.174 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:35:21.176 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:35:21.209 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:35:21.232 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:35:21.237 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9585ms.
+2025-03-26 00:35:21.249 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:35:21.306 +02:00 [INF] Executed ViewResult - view Login executed in 61.3238ms.
+2025-03-26 00:35:21.313 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 100.2153ms
+2025-03-26 00:35:21.316 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:35:21.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:35:21.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:35:21.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:35:21.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:35:21.322 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 155.3776ms
+2025-03-26 00:35:21.379 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:35:21.379 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:35:21.381 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 63.3987ms
+2025-03-26 00:35:21.382 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:35:21.383 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:35:21.382 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 64.5941ms
+2025-03-26 00:35:21.387 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 69.6861ms
+2025-03-26 00:35:21.383 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:35:21.387 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:35:21.391 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:35:21.389 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:35:21.392 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 9.3889ms
+2025-03-26 00:35:21.392 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 9.3923ms
+2025-03-26 00:35:21.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 75.5785ms
+2025-03-26 00:35:21.420 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:35:21.421 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:35:21.423 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:35:21.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:35:21.424 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 3.8561ms
+2025-03-26 00:35:21.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:35:21.426 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:35:21.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:35:21.431 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 9.1319ms
+2025-03-26 00:35:21.434 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:35:21.434 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:35:21.436 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 14.0971ms
+2025-03-26 00:35:21.431 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:35:21.440 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:35:21.441 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 18.6303ms
+2025-03-26 00:35:21.442 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 7.8595ms
+2025-03-26 00:35:21.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:35:21.448 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:35:21.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:35:21.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:35:21.453 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:35:21.450 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:35:21.455 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 33.2121ms
+2025-03-26 00:35:21.458 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:35:21.456 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 34.2632ms
+2025-03-26 00:35:21.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:35:21.460 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 38.0282ms
+2025-03-26 00:35:21.460 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:35:21.464 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:35:21.465 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 44.7347ms
+2025-03-26 00:35:21.466 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 43.8758ms
+2025-03-26 00:35:21.490 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:35:21.494 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:35:21.495 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 5.0859ms
+2025-03-26 00:35:32.592 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Admin/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:35:32.594 +02:00 [INF] Request: GET /Admin/Account/Login
+2025-03-26 00:35:32.598 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:35:32.602 +02:00 [INF] Route matched with {area = "Admin", action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Areas.Admin.Controllers.AccountController (BaseProject).
+2025-03-26 00:35:32.604 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:35:34.450 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1845.7615ms.
+2025-03-26 00:35:34.453 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:35:34.463 +02:00 [INF] Executed ViewResult - view Login executed in 10.0733ms.
+2025-03-26 00:35:34.464 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject) in 1860.9549ms
+2025-03-26 00:35:34.465 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:35:34.466 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Admin/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 1874.4376ms
+2025-03-26 00:35:34.470 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/logos/default.svg - null null
+2025-03-26 00:35:34.471 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/logos/default-dark.svg - null null
+2025-03-26 00:35:34.472 +02:00 [INF] Sending file. Request path: '/assets/media/logos/default.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\logos\default.svg'
+2025-03-26 00:35:34.474 +02:00 [INF] Sending file. Request path: '/assets/media/logos/default-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\logos\default-dark.svg'
+2025-03-26 00:35:34.474 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/logos/default.svg - 200 5071 image/svg+xml 4.0613ms
+2025-03-26 00:35:34.475 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/logos/default-dark.svg - 200 5070 image/svg+xml 3.1539ms
+2025-03-26 00:35:34.501 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/facebook-3.svg - null null
+2025-03-26 00:35:34.503 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/i18n.js - null null
+2025-03-26 00:35:34.504 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/facebook-3.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\facebook-3.svg'
+2025-03-26 00:35:34.506 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/facebook-3.svg - 200 450 image/svg+xml 4.8155ms
+2025-03-26 00:35:34.506 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/i18n.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\i18n.js'
+2025-03-26 00:35:34.508 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/i18n.js - 200 12333 text/javascript 5.2066ms
+2025-03-26 00:35:34.537 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/bg11.png - null null
+2025-03-26 00:35:34.548 +02:00 [INF] Sending file. Request path: '/assets/media/auth/bg11.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\bg11.png'
+2025-03-26 00:35:34.549 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/bg11.png - 200 64626 image/png 11.9898ms
+2025-03-26 00:35:56.070 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-26 00:35:56.072 +02:00 [INF] Request: GET /admin/home/index
+2025-03-26 00:35:56.073 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-26 00:35:56.074 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:35:56.074 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 4.4504ms
+2025-03-26 00:35:56.076 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-26 00:35:56.077 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:35:56.077 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:35:56.078 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:35:56.080 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:35:56.080 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.02ms.
+2025-03-26 00:35:56.081 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:35:56.084 +02:00 [INF] Executed ViewResult - view Login executed in 2.6138ms.
+2025-03-26 00:35:56.084 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 5.1164ms
+2025-03-26 00:35:56.085 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:35:56.086 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 200 null text/html; charset=utf-8 10.0675ms
+2025-03-26 00:35:56.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:35:56.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:35:56.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:35:56.102 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:35:56.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:35:56.105 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:35:56.105 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 5.654ms
+2025-03-26 00:35:56.108 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 8.8184ms
+2025-03-26 00:35:56.114 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:35:56.116 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 16.196ms
+2025-03-26 00:35:56.117 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:35:56.121 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:35:56.122 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 4.9612ms
+2025-03-26 00:35:56.125 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:35:56.126 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 26.3861ms
+2025-03-26 00:35:56.131 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:35:56.133 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:35:56.133 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:35:56.134 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 2.5719ms
+2025-03-26 00:35:56.135 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:35:56.136 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 3.2865ms
+2025-03-26 00:35:56.150 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:35:56.150 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:35:56.152 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:35:56.156 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:35:56.157 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:35:56.158 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 6.2428ms
+2025-03-26 00:35:56.161 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:35:56.159 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:35:56.164 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:35:56.159 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 8.2681ms
+2025-03-26 00:35:56.166 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 5.8697ms
+2025-03-26 00:35:56.166 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:35:56.168 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:35:56.172 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 12.9103ms
+2025-03-26 00:35:56.176 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:35:56.179 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 10.7176ms
+2025-03-26 00:35:56.180 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:35:56.179 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:35:56.184 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:35:56.186 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:35:56.186 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 5.6292ms
+2025-03-26 00:35:56.187 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 8.3541ms
+2025-03-26 00:35:56.191 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:35:56.192 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 41.9989ms
+2025-03-26 00:35:56.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:35:56.273 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:35:56.274 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 3.2946ms
+2025-03-26 00:35:56.275 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:35:56.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:35:56.294 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:35:56.295 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 5.6389ms
+2025-03-26 00:37:10.217 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-26 00:37:10.320 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-26 00:37:10.353 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-26 00:37:10.354 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-26 00:37:10.355 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 00:37:10.356 +02:00 [INF] Hosting environment: Development
+2025-03-26 00:37:10.356 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-26 00:37:10.814 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-26 00:37:10.827 +02:00 [INF] Request: GET /
+2025-03-26 00:37:10.841 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2025-03-26 00:37:10.855 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-26 00:37:10.858 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 302 0 null 46.1039ms
+2025-03-26 00:37:10.871 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - null null
+2025-03-26 00:37:10.884 +02:00 [INF] Request: GET /Account/Login
+2025-03-26 00:37:10.886 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:37:10.910 +02:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller BaseProject.Controllers.AccountController (BaseProject).
+2025-03-26 00:37:10.929 +02:00 [INF] Executing action method BaseProject.Controllers.AccountController.Login (BaseProject) - Validation state: "Valid"
+2025-03-26 00:37:10.935 +02:00 [INF] Executed action method BaseProject.Controllers.AccountController.Login (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8236ms.
+2025-03-26 00:37:10.943 +02:00 [INF] Executing ViewResult, running view Login.
+2025-03-26 00:37:10.988 +02:00 [INF] Executed ViewResult - view Login executed in 46.2055ms.
+2025-03-26 00:37:10.992 +02:00 [INF] Executed action BaseProject.Controllers.AccountController.Login (BaseProject) in 79.4126ms
+2025-03-26 00:37:10.993 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - null null
+2025-03-26 00:37:10.995 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.AccountController.Login (BaseProject)'
+2025-03-26 00:37:10.994 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - null null
+2025-03-26 00:37:10.993 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - null null
+2025-03-26 00:37:10.993 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - null null
+2025-03-26 00:37:11.009 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 137.8509ms
+2025-03-26 00:37:11.052 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency.png'
+2025-03-26 00:37:11.052 +02:00 [INF] Sending file. Request path: '/assets/media/auth/agency-dark.png'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\auth\agency-dark.png'
+2025-03-26 00:37:11.054 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency.png - 200 25904 image/png 60.2857ms
+2025-03-26 00:37:11.056 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - null null
+2025-03-26 00:37:11.055 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - null null
+2025-03-26 00:37:11.059 +02:00 [INF] Sending file. Request path: '/assets/css/style.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\css\style.bundle.css'
+2025-03-26 00:37:11.055 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/auth/agency-dark.png - 200 24965 image/png 60.9149ms
+2025-03-26 00:37:11.061 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black.svg'
+2025-03-26 00:37:11.053 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.css'
+2025-03-26 00:37:11.063 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/google-icon.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\google-icon.svg'
+2025-03-26 00:37:11.063 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/css/style.bundle.css - 200 1601327 text/css 69.1852ms
+2025-03-26 00:37:11.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black.svg - 200 785 image/svg+xml 10.6663ms
+2025-03-26 00:37:11.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.css - 200 879361 text/css 73.7227ms
+2025-03-26 00:37:11.068 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/google-icon.svg - 200 1203 image/svg+xml 12.7011ms
+2025-03-26 00:37:11.085 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - null null
+2025-03-26 00:37:11.085 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - null null
+2025-03-26 00:37:11.087 +02:00 [INF] Sending file. Request path: '/assets/media/svg/brand-logos/apple-black-dark.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\svg\brand-logos\apple-black-dark.svg'
+2025-03-26 00:37:11.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/svg/brand-logos/apple-black-dark.svg - 200 1101 image/svg+xml 3.4647ms
+2025-03-26 00:37:11.101 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - null null
+2025-03-26 00:37:11.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - null null
+2025-03-26 00:37:11.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - null null
+2025-03-26 00:37:11.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - null null
+2025-03-26 00:37:11.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - null null
+2025-03-26 00:37:11.109 +02:00 [INF] Sending file. Request path: '/assets/media/flags/spain.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\spain.svg'
+2025-03-26 00:37:11.109 +02:00 [INF] Sending file. Request path: '/assets/media/flags/france.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\france.svg'
+2025-03-26 00:37:11.112 +02:00 [INF] Sending file. Request path: '/assets/media/flags/germany.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\germany.svg'
+2025-03-26 00:37:11.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - null null
+2025-03-26 00:37:11.114 +02:00 [INF] Sending file. Request path: '/assets/media/flags/japan.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\japan.svg'
+2025-03-26 00:37:11.118 +02:00 [INF] Sending file. Request path: '/assets/js/scripts.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\scripts.bundle.js'
+2025-03-26 00:37:11.118 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/japan.svg - 200 610 image/svg+xml 12.8654ms
+2025-03-26 00:37:11.119 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/scripts.bundle.js - 200 240820 text/javascript 18.5105ms
+2025-03-26 00:37:11.119 +02:00 [INF] Sending file. Request path: '/assets/js/custom/authentication/sign-in/general.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\js\custom\authentication\sign-in\general.js'
+2025-03-26 00:37:11.115 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/germany.svg - 200 692 image/svg+xml 9.5451ms
+2025-03-26 00:37:11.125 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/js/custom/authentication/sign-in/general.js - 200 9000 text/javascript 20.0003ms
+2025-03-26 00:37:11.114 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/spain.svg - 200 5915 image/svg+xml 8.357ms
+2025-03-26 00:37:11.114 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/france.svg - 200 692 image/svg+xml 8.9743ms
+2025-03-26 00:37:11.120 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - null null
+2025-03-26 00:37:11.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - null null
+2025-03-26 00:37:11.139 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/plugins.bundle.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\plugins.bundle.js'
+2025-03-26 00:37:11.140 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/plugins.bundle.js - 200 3558077 text/javascript 54.7719ms
+2025-03-26 00:37:11.140 +02:00 [INF] Sending file. Request path: '/assets/media/flags/united-states.svg'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\media\flags\united-states.svg'
+2025-03-26 00:37:11.140 +02:00 [INF] Request: GET /Account/assets/media/auth/bg10.jpeg
+2025-03-26 00:37:11.142 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/media/flags/united-states.svg - 200 16287 image/svg+xml 36.4406ms
+2025-03-26 00:37:11.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg - 404 0 null 22.8777ms
+2025-03-26 00:37:11.146 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/assets/media/auth/bg10.jpeg, Response status code: 404
+2025-03-26 00:37:11.182 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - null null
+2025-03-26 00:37:11.186 +02:00 [INF] Sending file. Request path: '/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf'
+2025-03-26 00:37:11.187 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf?eut7fk - 200 187500 application/x-font-ttf 4.9473ms

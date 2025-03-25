@@ -1,0 +1,39 @@
+2025-03-26 00:19:11.975 +02:00 [ERR] An unhandled exception occurred in Unknown/Unknown.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+BaseProject.Controllers.AccountController.Login (BaseProject)
+BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-26 00:19:23.956 +02:00 [ERR] An unhandled exception occurred in Unknown/Unknown.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+BaseProject.Controllers.AccountController.Login (BaseProject)
+BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-26 00:19:32.309 +02:00 [ERR] An unhandled exception occurred in Unknown/Unknown.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+BaseProject.Controllers.AccountController.Login (BaseProject)
+BaseProject.Areas.Admin.Controllers.AccountController.Login (BaseProject)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18

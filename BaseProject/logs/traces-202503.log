@@ -1,0 +1,861 @@
+2025-03-24 20:33:12.407 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 20:33:12.452 +02:00 [INF] Creating key {306fb165-6fa7-4771-9ce5-dacff3da3881} with creation date 2025-03-24 18:33:12Z, activation date 2025-03-24 18:33:12Z, and expiration date 2025-06-22 18:33:12Z.
+2025-03-24 20:33:12.480 +02:00 [INF] Writing data to file 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys\key-306fb165-6fa7-4771-9ce5-dacff3da3881.xml'.
+2025-03-24 20:33:12.617 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 20:33:12.656 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 20:33:12.657 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 20:33:12.659 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 20:33:12.660 +02:00 [INF] Hosting environment: Development
+2025-03-24 20:33:12.661 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 20:33:16.270 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 20:33:16.297 +02:00 [INF] Request: GET /
+2025-03-24 20:33:16.300 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 20:33:16.314 +02:00 [INF] Hello from Serilog!
+2025-03-24 20:33:16.317 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 20:33:16.322 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 20:33:16.326 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 20:33:16.329 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 60.1446ms
+2025-03-24 20:33:16.401 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/favicon.ico - null null
+2025-03-24 20:33:16.426 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\favicon.ico'
+2025-03-24 20:33:16.429 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/favicon.ico - 200 5430 image/x-icon 28.4018ms
+2025-03-24 20:33:43.122 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin - null null
+2025-03-24 20:33:43.134 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-24 20:33:43.335 +02:00 [ERR] An unhandled exception occurred in Home/Index.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-24 20:33:43.404 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin - 500 null text/plain 282.49ms
+2025-03-24 20:33:50.592 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 20:33:50.595 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-24 20:33:50.614 +02:00 [ERR] An unhandled exception occurred in Home/Index.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-24 20:33:50.616 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 500 null text/plain 24.2428ms
+2025-03-24 20:34:11.397 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 20:34:11.401 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-24 20:34:11.416 +02:00 [ERR] An unhandled exception occurred in Home/Index.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-24 20:34:11.418 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 500 null text/plain 21.156ms
+2025-03-24 20:34:11.432 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/favicon.ico - null null
+2025-03-24 20:34:11.436 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\favicon.ico'
+2025-03-24 20:34:11.437 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/favicon.ico - 200 5430 image/x-icon 4.9399ms
+2025-03-24 20:34:41.149 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 20:34:41.152 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-24 20:34:41.193 +02:00 [ERR] An unhandled exception occurred in Home/Index.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\redal\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2025-03-24 20:34:41.198 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 500 null text/plain 49.3349ms
+2025-03-24 21:57:23.104 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 21:57:23.220 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 21:57:23.252 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 21:57:23.253 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 21:57:23.254 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 21:57:23.255 +02:00 [INF] Hosting environment: Development
+2025-03-24 21:57:23.255 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 21:57:23.773 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 21:57:23.817 +02:00 [INF] Request: GET /
+2025-03-24 21:57:23.821 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 21:57:23.839 +02:00 [INF] Hello from Serilog!
+2025-03-24 21:57:23.843 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 21:57:23.848 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 21:57:23.851 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 21:57:23.853 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 80.585ms
+2025-03-24 21:58:19.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 21:58:19.448 +02:00 [INF] Request: GET /
+2025-03-24 21:58:19.450 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 21:58:19.450 +02:00 [INF] Hello from Serilog!
+2025-03-24 21:58:19.451 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 21:58:19.452 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 21:58:19.453 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 21:58:19.454 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 10.3523ms
+2025-03-24 21:58:19.475 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/favicon.ico - null null
+2025-03-24 21:58:19.493 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\favicon.ico'
+2025-03-24 21:58:19.495 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/favicon.ico - 200 5430 image/x-icon 20.0087ms
+2025-03-24 21:58:29.504 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 21:58:29.625 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 21:58:29.657 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 21:58:29.658 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 21:58:29.659 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 21:58:29.660 +02:00 [INF] Hosting environment: Development
+2025-03-24 21:58:29.660 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 21:58:29.929 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 21:58:29.962 +02:00 [INF] Request: GET /
+2025-03-24 21:58:29.967 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 21:58:29.975 +02:00 [INF] Hello from Serilog!
+2025-03-24 21:58:29.978 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 21:58:29.985 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 21:58:29.988 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 21:58:29.993 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 61.1573ms
+2025-03-24 21:58:36.771 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 21:58:36.775 +02:00 [INF] Request: GET /
+2025-03-24 21:58:36.775 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 21:58:36.775 +02:00 [INF] Hello from Serilog!
+2025-03-24 21:58:36.776 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 21:58:36.777 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 21:58:36.778 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 21:58:36.779 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 7.8048ms
+2025-03-24 21:58:36.797 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/favicon.ico - null null
+2025-03-24 21:58:36.814 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\favicon.ico'
+2025-03-24 21:58:36.817 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/favicon.ico - 200 5430 image/x-icon 19.8025ms
+2025-03-24 21:58:41.958 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 21:58:41.961 +02:00 [INF] Request: GET /home/index
+2025-03-24 21:58:41.963 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 5.0498ms
+2025-03-24 21:58:41.965 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 21:59:08.952 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 21:59:08.954 +02:00 [INF] Request: GET /home/index
+2025-03-24 21:59:08.955 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 3.1871ms
+2025-03-24 21:59:08.956 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 21:59:26.160 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 21:59:26.163 +02:00 [INF] Request: GET /
+2025-03-24 21:59:26.164 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 21:59:26.165 +02:00 [INF] Hello from Serilog!
+2025-03-24 21:59:26.165 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 21:59:26.166 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 21:59:26.166 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 21:59:26.167 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 6.8241ms
+2025-03-24 21:59:39.093 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 21:59:39.100 +02:00 [INF] Request: GET /admin/home/index
+2025-03-24 21:59:39.101 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 21:59:39.115 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 21:59:39.123 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 21:59:44.027 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4900.3542ms.
+2025-03-24 21:59:44.038 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 21:59:44.105 +02:00 [INF] Executed ViewResult - view Index executed in 68.7474ms.
+2025-03-24 21:59:44.108 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 4991.3984ms
+2025-03-24 21:59:44.109 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 21:59:44.109 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 21:59:44.111 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=WgrBpFLkfdj02FbCbSCxLrZWeWcb4hgdFU3aBvfE5gc - null null
+2025-03-24 21:59:44.111 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-24 21:59:44.113 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 200 null text/html; charset=utf-8 5020.1243ms
+2025-03-24 21:59:44.137 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-24 21:59:44.138 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-24 21:59:44.138 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-24 21:59:44.138 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 29.0734ms
+2025-03-24 21:59:44.139 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 27.9192ms
+2025-03-24 21:59:44.140 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=WgrBpFLkfdj02FbCbSCxLrZWeWcb4hgdFU3aBvfE5gc - 200 2270 text/css 28.4764ms
+2025-03-24 21:59:44.140 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 21:59:44.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 21:59:44.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-24 21:59:44.151 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-24 21:59:44.152 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-24 21:59:44.151 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-24 21:59:44.153 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 9.9038ms
+2025-03-24 21:59:44.153 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 10.5358ms
+2025-03-24 21:59:44.154 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 13.9427ms
+2025-03-24 21:59:46.820 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy - null null
+2025-03-24 21:59:46.822 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 21:59:46.822 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy - 404 0 null 2.193ms
+2025-03-24 21:59:46.824 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 404
+2025-03-24 21:59:48.886 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 21:59:48.888 +02:00 [INF] Request: GET /
+2025-03-24 21:59:48.888 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 21:59:48.889 +02:00 [INF] Hello from Serilog!
+2025-03-24 21:59:48.889 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 21:59:48.890 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 21:59:48.890 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 21:59:48.891 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 4.8961ms
+2025-03-24 22:00:52.309 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:00:52.421 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:00:52.452 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:00:52.452 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:00:52.453 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:00:52.454 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:00:52.454 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:00:52.928 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:00:52.959 +02:00 [INF] Request: GET /
+2025-03-24 22:00:52.965 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 22:00:52.972 +02:00 [INF] Hello from Serilog!
+2025-03-24 22:00:52.975 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 22:00:52.981 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 22:00:52.984 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 22:00:52.985 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 58.6953ms
+2025-03-24 22:00:58.743 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:00:58.749 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:00:58.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 6.734ms
+2025-03-24 22:00:58.752 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:01:06.681 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186//admin/home/index - null null
+2025-03-24 22:01:06.686 +02:00 [INF] Request: GET //admin/home/index
+2025-03-24 22:01:06.687 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186//admin/home/index - 404 0 null 6.6539ms
+2025-03-24 22:01:06.689 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186//admin/home/index, Response status code: 404
+2025-03-24 22:01:16.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186//admin/home/index - null null
+2025-03-24 22:01:16.280 +02:00 [INF] Request: GET //admin/home/index
+2025-03-24 22:01:16.281 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186//admin/home/index - 404 0 null 3.2984ms
+2025-03-24 22:01:16.282 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186//admin/home/index, Response status code: 404
+2025-03-24 22:01:49.543 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:01:49.550 +02:00 [INF] Request: GET /admin/home/index
+2025-03-24 22:01:49.551 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:01:49.560 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:01:49.568 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:01:51.825 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2253.3574ms.
+2025-03-24 22:01:51.835 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:01:51.894 +02:00 [INF] Executed ViewResult - view Index executed in 60.5451ms.
+2025-03-24 22:01:51.897 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 2335.2619ms
+2025-03-24 22:01:51.899 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:01:51.901 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:01:51.902 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 200 null text/html; charset=utf-8 2358.9123ms
+2025-03-24 22:01:51.904 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-24 22:01:51.904 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-24 22:01:51.943 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-24 22:01:51.943 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-24 22:01:51.943 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-24 22:01:51.947 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 200 2275 text/css 43.3126ms
+2025-03-24 22:01:51.947 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 46.012ms
+2025-03-24 22:01:51.947 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 43.3857ms
+2025-03-24 22:01:51.951 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:01:51.951 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:01:51.952 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-24 22:01:51.955 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-24 22:01:51.957 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-24 22:01:51.957 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-24 22:01:51.958 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 6.2536ms
+2025-03-24 22:01:51.958 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 6.7094ms
+2025-03-24 22:01:51.959 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 7.2266ms
+2025-03-24 22:01:56.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy - null null
+2025-03-24 22:01:56.491 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 22:01:56.492 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy - 404 0 null 2.6113ms
+2025-03-24 22:01:56.494 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 404
+2025-03-24 22:02:16.998 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:02:17.116 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:02:17.151 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:02:17.152 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:02:17.153 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:02:17.153 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:02:17.154 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:02:17.506 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:02:17.543 +02:00 [INF] Request: GET /
+2025-03-24 22:02:17.550 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-03-24 22:02:17.558 +02:00 [INF] Hello from Serilog!
+2025-03-24 22:02:17.562 +02:00 [INF] Setting HTTP status code 200.
+2025-03-24 22:02:17.571 +02:00 [INF] Writing value of type 'String' as Json.
+2025-03-24 22:02:17.576 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-03-24 22:02:17.585 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null application/json; charset=utf-8 74.9975ms
+2025-03-24 22:03:10.217 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:03:10.309 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:03:10.346 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:03:10.346 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:03:10.348 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:03:10.349 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:03:10.349 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:03:10.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:03:11.008 +02:00 [INF] Request: GET /
+2025-03-24 22:03:11.014 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:03:11.041 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:03:11.050 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:03:28.881 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 17826.9489ms.
+2025-03-24 22:03:28.890 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:03:28.944 +02:00 [INF] Executed ViewResult - view Index executed in 52.8328ms.
+2025-03-24 22:03:28.950 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 17907.1047ms
+2025-03-24 22:03:28.951 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:03:28.954 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null text/html; charset=utf-8 17977.0178ms
+2025-03-24 22:03:28.955 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:03:28.956 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-24 22:03:28.956 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-24 22:03:28.968 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-24 22:03:28.969 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 200 2275 text/css 13.3079ms
+2025-03-24 22:03:28.971 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-24 22:03:28.979 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:03:28.982 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-24 22:03:28.983 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 26.8898ms
+2025-03-24 22:03:28.988 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:03:28.983 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-24 22:03:28.986 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 31.1815ms
+2025-03-24 22:03:28.992 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 12.7651ms
+2025-03-24 22:03:28.989 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-24 22:03:28.993 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-24 22:03:28.997 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 10.4745ms
+2025-03-24 22:03:28.998 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-24 22:03:29.000 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 10.7622ms
+2025-03-24 22:03:30.847 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - null null
+2025-03-24 22:03:30.851 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 22:03:30.852 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - 404 0 null 4.45ms
+2025-03-24 22:03:30.854 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 404
+2025-03-24 22:03:33.262 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/?area=Admin - null null
+2025-03-24 22:03:33.265 +02:00 [INF] Request: GET /
+2025-03-24 22:03:33.265 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:03:33.265 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:03:33.266 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:03:35.322 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2055.3844ms.
+2025-03-24 22:03:35.324 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:03:35.328 +02:00 [INF] Executed ViewResult - view Index executed in 3.3298ms.
+2025-03-24 22:03:35.330 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 2063.4852ms
+2025-03-24 22:03:35.331 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:03:35.331 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/?area=Admin - 200 null text/html; charset=utf-8 2069.1606ms
+2025-03-24 22:03:43.566 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:03:43.569 +02:00 [INF] Request: GET /
+2025-03-24 22:03:43.569 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:03:43.570 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:03:43.571 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:03:45.068 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1496.2374ms.
+2025-03-24 22:03:45.070 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:03:45.071 +02:00 [INF] Executed ViewResult - view Index executed in 1.0826ms.
+2025-03-24 22:03:45.072 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 1500.9776ms
+2025-03-24 22:03:45.073 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:03:45.074 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null text/html; charset=utf-8 1507.1857ms
+2025-03-24 22:03:45.081 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-24 22:03:45.084 +02:00 [INF] The file /BaseProject.styles.css was not modified
+2025-03-24 22:03:45.085 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 304 null text/css 3.9561ms
+2025-03-24 22:03:48.584 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/?area=Admin - null null
+2025-03-24 22:03:48.585 +02:00 [INF] Request: GET /
+2025-03-24 22:03:48.585 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:03:48.586 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:03:48.586 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:03:54.993 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6405.6445ms.
+2025-03-24 22:03:55.001 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - null null
+2025-03-24 22:03:55.001 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - null null
+2025-03-24 22:03:55.001 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:03:55.002 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 22:03:55.003 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 22:03:55.004 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - 499 null null 3.3174ms
+2025-03-24 22:03:55.004 +02:00 [INF] Executed ViewResult - view Index executed in 2.4254ms.
+2025-03-24 22:03:55.004 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - 404 0 null 3.8081ms
+2025-03-24 22:03:55.005 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 499
+2025-03-24 22:03:55.006 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 6419.3703ms
+2025-03-24 22:03:55.008 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 404
+2025-03-24 22:03:55.009 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:03:55.012 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/?area=Admin - 200 null text/html; charset=utf-8 6427.891ms
+2025-03-24 22:06:51.226 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:06:51.335 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:06:51.377 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:06:51.378 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:06:51.380 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:06:51.380 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:06:51.381 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:06:51.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:06:52.006 +02:00 [INF] Request: GET /
+2025-03-24 22:06:52.010 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:06:52.039 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:06:52.049 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:06:52.053 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3814ms.
+2025-03-24 22:06:52.065 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:06:52.153 +02:00 [INF] Executed ViewResult - view Index executed in 81.6921ms.
+2025-03-24 22:06:52.154 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 113.9201ms
+2025-03-24 22:06:52.155 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:06:52.158 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null text/html; charset=utf-8 187.7097ms
+2025-03-24 22:06:52.164 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-24 22:06:52.164 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-24 22:06:52.164 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:06:52.176 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-24 22:06:52.176 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-24 22:06:52.179 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 200 2275 text/css 14.6451ms
+2025-03-24 22:06:52.179 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 14.6496ms
+2025-03-24 22:06:52.186 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:06:52.187 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:06:52.202 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-24 22:06:52.202 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-24 22:06:52.202 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-24 22:06:52.205 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 19.1705ms
+2025-03-24 22:06:52.205 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 18.0199ms
+2025-03-24 22:06:52.205 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 41.2785ms
+2025-03-24 22:06:52.208 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-24 22:06:52.214 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-24 22:06:52.216 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 8.6265ms
+2025-03-24 22:06:52.316 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/favicon.ico - null null
+2025-03-24 22:06:52.319 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\favicon.ico'
+2025-03-24 22:06:52.320 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/favicon.ico - 200 5430 image/x-icon 3.3099ms
+2025-03-24 22:06:54.001 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/?area=Admin - null null
+2025-03-24 22:06:54.004 +02:00 [INF] Request: GET /
+2025-03-24 22:06:54.005 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:06:54.005 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:06:54.006 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:06:54.007 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0188ms.
+2025-03-24 22:06:54.007 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:06:54.011 +02:00 [INF] Executed ViewResult - view Index executed in 3.4736ms.
+2025-03-24 22:06:54.013 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 7.4505ms
+2025-03-24 22:06:54.014 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:06:54.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/?area=Admin - 200 null text/html; charset=utf-8 14.6885ms
+2025-03-24 22:06:54.601 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - null null
+2025-03-24 22:06:54.605 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 22:06:54.605 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - 404 0 null 3.8214ms
+2025-03-24 22:06:54.607 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 404
+2025-03-24 22:06:56.988 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - null null
+2025-03-24 22:06:56.990 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 22:06:56.990 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - 404 0 null 2.2208ms
+2025-03-24 22:06:56.992 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 404
+2025-03-24 22:06:58.916 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - null null
+2025-03-24 22:06:58.917 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 22:06:58.918 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - 404 0 null 2.2262ms
+2025-03-24 22:06:58.919 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 404
+2025-03-24 22:07:06.111 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:07:06.114 +02:00 [INF] Request: GET /
+2025-03-24 22:07:06.115 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:07:06.116 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:07:06.117 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:07:06.117 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0123ms.
+2025-03-24 22:07:06.118 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:07:06.119 +02:00 [INF] Executed ViewResult - view Index executed in 0.8116ms.
+2025-03-24 22:07:06.119 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 2.5674ms
+2025-03-24 22:07:06.120 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:07:06.121 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null text/html; charset=utf-8 9.5393ms
+2025-03-24 22:07:08.258 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - null null
+2025-03-24 22:07:08.260 +02:00 [INF] Request: GET /Home/Privacy
+2025-03-24 22:07:08.262 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Home/Privacy?area=Admin - 404 0 null 3.4447ms
+2025-03-24 22:07:08.263 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Home/Privacy, Response status code: 404
+2025-03-24 22:08:09.078 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:08:09.190 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:08:09.235 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:08:09.235 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:08:09.237 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:08:09.237 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:08:09.238 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:08:09.620 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:08:09.649 +02:00 [INF] Request: GET /
+2025-03-24 22:08:09.652 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 32.8306ms
+2025-03-24 22:08:09.669 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:08:26.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:08:26.303 +02:00 [INF] Request: GET /
+2025-03-24 22:08:26.303 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 2.517ms
+2025-03-24 22:08:26.305 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:08:41.470 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:08:41.563 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:08:41.595 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:08:41.595 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:08:41.597 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:08:41.597 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:08:41.598 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:08:42.154 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:08:42.185 +02:00 [INF] Request: GET /
+2025-03-24 22:08:42.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 36.6077ms
+2025-03-24 22:08:42.205 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:09:17.794 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:09:17.884 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:09:17.918 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:09:17.918 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:09:17.920 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:09:17.920 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:09:17.921 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:09:18.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:09:18.517 +02:00 [INF] Request: GET /
+2025-03-24 22:09:18.520 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 32.169ms
+2025-03-24 22:09:18.535 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:09:34.118 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:09:34.120 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:09:34.120 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 2.6456ms
+2025-03-24 22:09:34.122 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:09:34.329 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:09:34.331 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:09:34.331 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 2.6421ms
+2025-03-24 22:09:34.333 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:10:25.603 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:10:25.696 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:10:25.728 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:10:25.729 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:10:25.730 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:10:25.731 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:10:25.731 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:10:26.275 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:10:26.306 +02:00 [INF] Request: GET /
+2025-03-24 22:10:26.313 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 39.3772ms
+2025-03-24 22:10:26.325 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:10:31.174 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:10:31.178 +02:00 [INF] Request: GET /
+2025-03-24 22:10:31.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 4.3989ms
+2025-03-24 22:10:31.180 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:10:52.356 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:10:52.367 +02:00 [INF] Request: GET /admin/home/index
+2025-03-24 22:10:52.368 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:10:52.385 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:10:52.393 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:10:54.090 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1692.7773ms.
+2025-03-24 22:10:54.099 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:10:54.156 +02:00 [INF] Executed ViewResult - view Index executed in 57.4672ms.
+2025-03-24 22:10:54.157 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 1770.4918ms
+2025-03-24 22:10:54.158 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:10:54.159 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:10:54.163 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 200 null text/html; charset=utf-8 1806.8043ms
+2025-03-24 22:10:54.164 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-24 22:10:54.164 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-24 22:10:54.206 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-24 22:10:54.206 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-24 22:10:54.206 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-24 22:10:54.208 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 200 2275 text/css 43.5974ms
+2025-03-24 22:10:54.208 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 50.0946ms
+2025-03-24 22:10:54.208 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 43.7187ms
+2025-03-24 22:10:54.211 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:10:54.211 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:10:54.214 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-24 22:10:54.216 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-24 22:10:54.218 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-24 22:10:54.218 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-24 22:10:54.218 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 7.1802ms
+2025-03-24 22:10:54.219 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 7.6802ms
+2025-03-24 22:10:54.219 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 5.365ms
+2025-03-24 22:10:54.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/favicon.ico - null null
+2025-03-24 22:10:54.303 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\favicon.ico'
+2025-03-24 22:10:54.304 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/favicon.ico - 200 5430 image/x-icon 3.5048ms
+2025-03-24 22:11:00.227 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:11:00.228 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:11:00.229 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 2.4286ms
+2025-03-24 22:11:00.230 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:11:00.372 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:11:00.374 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:11:00.375 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 3.3996ms
+2025-03-24 22:11:00.377 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:12:16.508 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:12:16.605 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:12:16.640 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:12:16.641 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:12:16.643 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:12:16.644 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:12:16.644 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:12:17.141 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:12:17.168 +02:00 [INF] Request: GET /
+2025-03-24 22:12:17.171 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 31.2837ms
+2025-03-24 22:12:17.190 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:12:28.904 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:12:28.907 +02:00 [INF] Request: GET /
+2025-03-24 22:12:28.908 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 3.788ms
+2025-03-24 22:12:28.910 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:13:02.309 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:13:02.410 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:13:02.443 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:13:02.444 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:13:02.446 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:13:02.446 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:13:02.447 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:13:03.089 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:13:03.118 +02:00 [INF] Request: GET /
+2025-03-24 22:13:03.124 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 35.058ms
+2025-03-24 22:13:03.139 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:13:09.996 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:13:09.999 +02:00 [INF] Request: GET /admin/home/index
+2025-03-24 22:13:09.999 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 404 0 null 3.2872ms
+2025-03-24 22:13:10.001 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/admin/home/index, Response status code: 404
+2025-03-24 22:13:10.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:13:10.102 +02:00 [INF] Request: GET /admin/home/index
+2025-03-24 22:13:10.102 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 404 0 null 2.0799ms
+2025-03-24 22:13:10.103 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/admin/home/index, Response status code: 404
+2025-03-24 22:13:13.447 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:13:13.449 +02:00 [INF] Request: GET /admin/home/index
+2025-03-24 22:13:13.450 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 404 0 null 3.5405ms
+2025-03-24 22:13:13.451 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/admin/home/index, Response status code: 404
+2025-03-24 22:13:15.419 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:13:15.420 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:13:15.421 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 2.2355ms
+2025-03-24 22:13:15.422 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:13:15.592 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:13:15.594 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:13:15.595 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 2.4294ms
+2025-03-24 22:13:15.597 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:17:28.414 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:17:28.509 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:17:28.540 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:17:28.541 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:17:28.543 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:17:28.544 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:17:28.545 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:17:29.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:17:29.103 +02:00 [INF] Request: GET /
+2025-03-24 22:17:29.109 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 36.5866ms
+2025-03-24 22:17:29.120 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:17:34.448 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:17:34.459 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:17:34.459 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 11.8186ms
+2025-03-24 22:17:34.461 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:17:34.652 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:17:34.654 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:17:34.655 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 2.6702ms
+2025-03-24 22:17:34.657 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:17:42.924 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:17:42.929 +02:00 [INF] Request: GET /admin/home/index
+2025-03-24 22:17:42.931 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:17:42.949 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:17:42.959 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:17:44.652 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1689.2679ms.
+2025-03-24 22:17:44.665 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:17:44.730 +02:00 [INF] Executed ViewResult - view Index executed in 68.3253ms.
+2025-03-24 22:17:44.733 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 1781.3149ms
+2025-03-24 22:17:44.734 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:17:44.736 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 200 null text/html; charset=utf-8 1812.1213ms
+2025-03-24 22:17:44.739 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:17:44.744 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-24 22:17:44.744 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-24 22:17:44.778 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-24 22:17:44.778 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-24 22:17:44.778 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-24 22:17:44.780 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 200 2275 text/css 36.0705ms
+2025-03-24 22:17:44.780 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 41.1311ms
+2025-03-24 22:17:44.780 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 36.073ms
+2025-03-24 22:17:44.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-24 22:17:44.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:17:44.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:17:44.786 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-24 22:17:44.788 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-24 22:17:44.789 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 6.9151ms
+2025-03-24 22:17:44.790 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-24 22:17:44.790 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 7.9259ms
+2025-03-24 22:17:44.793 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 10.3325ms
+2025-03-24 22:17:44.871 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/favicon.ico - null null
+2025-03-24 22:17:44.877 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\favicon.ico'
+2025-03-24 22:17:44.878 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/favicon.ico - 200 5430 image/x-icon 6.1661ms
+2025-03-24 22:17:46.986 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Admin/Home/Privacy - null null
+2025-03-24 22:17:46.992 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-24 22:17:46.995 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-24 22:17:46.996 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Admin/Home/Privacy - 302 0 null 9.4692ms
+2025-03-24 22:17:46.998 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin%2FHome%2FPrivacy - null null
+2025-03-24 22:17:46.999 +02:00 [INF] Request: GET /Account/Login
+2025-03-24 22:17:47.000 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2FAdmin%2FHome%2FPrivacy - 404 0 null 1.9518ms
+2025-03-24 22:17:47.001 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/Login, Response status code: 404
+2025-03-24 22:17:48.501 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Admin - null null
+2025-03-24 22:17:48.504 +02:00 [INF] Request: GET /Admin
+2025-03-24 22:17:48.504 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:17:48.505 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:17:48.507 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:17:54.843 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6333.0192ms.
+2025-03-24 22:17:54.845 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-24 22:17:54.845 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:17:54.847 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:17:54.848 +02:00 [INF] Request: GET /home/index
+2025-03-24 22:17:54.849 +02:00 [INF] Request: GET /
+2025-03-24 22:17:54.849 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 3.9572ms
+2025-03-24 22:17:54.850 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 499 null null 4.5599ms
+2025-03-24 22:17:54.851 +02:00 [INF] Executed ViewResult - view Index executed in 3.5769ms.
+2025-03-24 22:17:54.851 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-24 22:17:54.852 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 499
+2025-03-24 22:17:54.853 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 6347.4869ms
+2025-03-24 22:17:54.856 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:17:54.857 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Admin - 200 null text/html; charset=utf-8 6355.3839ms
+2025-03-24 22:18:33.187 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:18:33.281 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:18:33.313 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:18:33.314 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:18:33.315 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:18:33.316 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:18:33.316 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:18:33.803 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:18:33.831 +02:00 [INF] Request: GET /
+2025-03-24 22:18:33.835 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 33.4251ms
+2025-03-24 22:18:33.850 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:20:03.420 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:20:03.514 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:20:03.545 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:20:03.546 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:20:03.548 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:20:03.548 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:20:03.549 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:20:04.067 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:20:04.096 +02:00 [INF] Request: GET /
+2025-03-24 22:20:04.100 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 33.666ms
+2025-03-24 22:20:04.115 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:20:50.198 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:20:50.292 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:20:50.324 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:20:50.325 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:20:50.327 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:20:50.327 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:20:50.328 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:20:50.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:20:50.914 +02:00 [INF] Request: GET /
+2025-03-24 22:20:50.917 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 34.7386ms
+2025-03-24 22:20:50.934 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:21:00.665 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:21:00.681 +02:00 [INF] Request: GET /admin/home/index
+2025-03-24 22:21:00.682 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:21:00.697 +02:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:21:00.703 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) - Validation state: "Valid"
+2025-03-24 22:21:03.585 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2877.9527ms.
+2025-03-24 22:21:03.595 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:21:03.651 +02:00 [INF] Executed ViewResult - view Index executed in 57.4099ms.
+2025-03-24 22:21:03.653 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject) in 2954.8379ms
+2025-03-24 22:21:03.654 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:21:03.655 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Index (BaseProject)'
+2025-03-24 22:21:03.659 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 200 null text/html; charset=utf-8 2994.6399ms
+2025-03-24 22:21:03.662 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-24 22:21:03.662 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-24 22:21:03.686 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-24 22:21:03.686 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-24 22:21:03.686 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-24 22:21:03.689 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 200 2275 text/css 26.3437ms
+2025-03-24 22:21:03.689 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 26.3365ms
+2025-03-24 22:21:03.689 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 34.4207ms
+2025-03-24 22:21:03.692 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:21:03.692 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:21:03.692 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-24 22:21:03.696 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-24 22:21:03.697 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-24 22:21:03.698 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-24 22:21:03.698 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 6.0066ms
+2025-03-24 22:21:03.698 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 6.5595ms
+2025-03-24 22:21:03.699 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 7.0835ms
+2025-03-24 22:22:05.273 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:22:05.366 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:22:05.395 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:22:05.396 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:22:05.397 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:22:05.398 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:22:05.398 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:22:05.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:22:05.990 +02:00 [INF] Request: GET /
+2025-03-24 22:22:05.997 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 35.3346ms
+2025-03-24 22:22:06.010 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-24 22:22:08.594 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:22:08.611 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-24 22:22:08.619 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-24 22:22:08.619 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 25.6956ms
+2025-03-24 22:22:08.622 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-24 22:22:08.627 +02:00 [INF] Request: GET /Account/Login
+2025-03-24 22:22:08.628 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 404 0 null 5.4272ms
+2025-03-24 22:22:08.629 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/Login, Response status code: 404
+2025-03-24 22:22:11.876 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:22:11.879 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-24 22:22:11.879 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-24 22:22:11.880 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 4.0297ms
+2025-03-24 22:22:11.882 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-24 22:22:11.883 +02:00 [INF] Request: GET /Account/Login
+2025-03-24 22:22:11.883 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 404 0 null 1.8601ms
+2025-03-24 22:22:11.885 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/Login, Response status code: 404
+2025-03-24 22:22:30.464 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-24 22:22:30.467 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-24 22:22:30.467 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-03-24 22:22:30.468 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 302 0 null 4.0835ms
+2025-03-24 22:22:30.469 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - null null
+2025-03-24 22:22:30.471 +02:00 [INF] Request: GET /Account/Login
+2025-03-24 22:22:30.472 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/Account/Login?ReturnUrl=%2Fadmin%2Fhome%2Findex - 404 0 null 2.9023ms
+2025-03-24 22:22:30.474 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/Account/Login, Response status code: 404
+2025-03-24 22:22:35.619 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/privacy - null null
+2025-03-24 22:22:35.621 +02:00 [INF] Request: GET /admin/home/privacy
+2025-03-24 22:22:35.623 +02:00 [INF] Executing endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject)'
+2025-03-24 22:22:35.641 +02:00 [INF] Route matched with {area = "Admin", action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller BaseProject.Areas.Admin.Controllers.HomeController (BaseProject).
+2025-03-24 22:22:35.648 +02:00 [INF] Executing action method BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject) - Validation state: "Valid"
+2025-03-24 22:22:35.651 +02:00 [INF] Executed action method BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3135ms.
+2025-03-24 22:22:35.662 +02:00 [INF] Executing ViewResult, running view Privacy.
+2025-03-24 22:22:35.711 +02:00 [INF] Executed ViewResult - view Privacy executed in 50.003ms.
+2025-03-24 22:22:35.715 +02:00 [INF] Executed action BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject) in 72.8656ms
+2025-03-24 22:22:35.716 +02:00 [INF] Executed endpoint 'BaseProject.Areas.Admin.Controllers.HomeController.Privacy (BaseProject)'
+2025-03-24 22:22:35.718 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/privacy - 200 null text/html; charset=utf-8 99.861ms
+2025-03-24 22:22:35.721 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:22:35.727 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:22:35.727 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:22:35.727 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-24 22:22:35.727 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - null null
+2025-03-24 22:22:35.727 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-24 22:22:35.780 +02:00 [INF] Sending file. Request path: '/BaseProject.styles.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\obj\Debug\net8.0\scopedcss\bundle\BaseProject.styles.css'
+2025-03-24 22:22:35.780 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\js\site.js'
+2025-03-24 22:22:35.780 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\css\site.css'
+2025-03-24 22:22:35.783 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-24 22:22:35.783 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-24 22:22:35.783 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\redal\RiderProjects\BaseProject\BaseProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-24 22:22:35.785 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 57.7568ms
+2025-03-24 22:22:35.785 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/BaseProject.styles.css?v=6_LveZbeYKqSEdUmEPGS3gTx3DInaopXGXseKWG5s-g - 200 2275 text/css 58.0134ms
+2025-03-24 22:22:35.785 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 58.013ms
+2025-03-24 22:22:35.785 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 64.154ms
+2025-03-24 22:22:35.786 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 58.5369ms
+2025-03-24 22:22:35.786 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 59.4366ms
+2025-03-24 22:22:39.734 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/privacy - null null
+2025-03-24 22:22:39.736 +02:00 [INF] Request: GET /home/privacy
+2025-03-24 22:22:39.736 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/privacy - 404 0 null 2.4914ms
+2025-03-24 22:22:39.739 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/privacy, Response status code: 404
+2025-03-24 22:25:50.458 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:25:50.551 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-24 22:25:50.589 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-24 22:25:50.589 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-24 22:25:50.591 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:25:50.591 +02:00 [INF] Hosting environment: Development
+2025-03-24 22:25:50.592 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-24 22:25:51.127 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-24 22:25:51.164 +02:00 [INF] Request: GET /
+2025-03-24 22:25:51.169 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 43.1757ms
+2025-03-24 22:25:51.184 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-25 23:14:05.071 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 23:14:05.177 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-25 23:14:05.248 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-25 23:14:05.249 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-25 23:14:05.250 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 23:14:05.251 +02:00 [INF] Hosting environment: Development
+2025-03-25 23:14:05.251 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-25 23:14:07.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-25 23:14:07.295 +02:00 [INF] Request: GET /
+2025-03-25 23:14:07.303 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 33.1491ms
+2025-03-25 23:14:07.317 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-25 23:14:07.319 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-25 23:14:07.321 +02:00 [INF] Request: GET /
+2025-03-25 23:14:07.322 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 3.883ms
+2025-03-25 23:14:07.325 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-25 23:14:09.401 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-25 23:14:09.405 +02:00 [INF] Request: GET /home/index
+2025-03-25 23:14:09.405 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 4.2801ms
+2025-03-25 23:14:09.408 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/index - null null
+2025-03-25 23:14:09.408 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-25 23:14:09.411 +02:00 [INF] Request: GET /home/index
+2025-03-25 23:14:09.412 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/index - 404 0 null 4.5183ms
+2025-03-25 23:14:09.415 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/index, Response status code: 404
+2025-03-25 23:25:02.558 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-25 23:25:02.563 +02:00 [INF] Request: GET /admin/home/index
+2025-03-25 23:25:02.563 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 404 0 null 6.6781ms
+2025-03-25 23:25:02.565 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/admin/home/index, Response status code: 404
+2025-03-25 23:25:06.389 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-25 23:25:06.391 +02:00 [INF] Request: GET /admin/home/index
+2025-03-25 23:25:06.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 404 0 null 3.2905ms
+2025-03-25 23:25:06.394 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/admin/home/index, Response status code: 404
+2025-03-25 23:25:22.923 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 23:25:23.046 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-25 23:25:23.079 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-25 23:25:23.079 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-25 23:25:23.081 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 23:25:23.081 +02:00 [INF] Hosting environment: Development
+2025-03-25 23:25:23.082 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-25 23:25:23.328 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-25 23:25:23.357 +02:00 [INF] Request: GET /
+2025-03-25 23:25:23.362 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 35.6943ms
+2025-03-25 23:25:23.378 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-25 23:29:39.411 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 23:29:39.496 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-25 23:29:39.528 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-25 23:29:39.528 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-25 23:29:39.530 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 23:29:39.531 +02:00 [INF] Hosting environment: Development
+2025-03-25 23:29:39.531 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-25 23:29:39.732 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-25 23:29:39.759 +02:00 [INF] Request: GET /
+2025-03-25 23:29:39.762 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 31.2949ms
+2025-03-25 23:29:39.776 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404
+2025-03-25 23:30:14.040 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-25 23:30:14.046 +02:00 [INF] Request: GET /admin/home/index
+2025-03-25 23:30:14.052 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 404 0 null 12.4318ms
+2025-03-25 23:30:14.058 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/admin/home/index, Response status code: 404
+2025-03-25 23:30:14.995 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/admin/home/index - null null
+2025-03-25 23:30:14.996 +02:00 [INF] Request: GET /admin/home/index
+2025-03-25 23:30:14.997 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/admin/home/index - 404 0 null 2.1661ms
+2025-03-25 23:30:14.998 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/admin/home/index, Response status code: 404
+2025-03-25 23:30:21.626 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/home/privacy - null null
+2025-03-25 23:30:21.628 +02:00 [INF] Request: GET /home/privacy
+2025-03-25 23:30:21.628 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/home/privacy - 404 0 null 2.8085ms
+2025-03-25 23:30:21.630 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/home/privacy, Response status code: 404
+2025-03-25 23:43:09.367 +02:00 [INF] User profile is available. Using 'C:\Users\redal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 23:43:09.470 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-03-25 23:43:09.500 +02:00 [INF] Now listening on: https://localhost:7186
+2025-03-25 23:43:09.500 +02:00 [INF] Now listening on: http://localhost:5083
+2025-03-25 23:43:09.502 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 23:43:09.502 +02:00 [INF] Hosting environment: Development
+2025-03-25 23:43:09.503 +02:00 [INF] Content root path: C:\Users\redal\RiderProjects\BaseProject\BaseProject
+2025-03-25 23:43:10.518 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-03-25 23:43:10.545 +02:00 [INF] Request: GET /
+2025-03-25 23:43:10.553 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 404 0 null 34.6758ms
+2025-03-25 23:43:10.569 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7186/, Response status code: 404

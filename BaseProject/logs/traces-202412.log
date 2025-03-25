@@ -1,0 +1,407 @@
+2024-12-31 21:09:00.328 +02:00 [INF] User profile is available. Using 'C:\Users\areda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-31 21:09:00.717 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 21:09:00.768 +02:00 [INF] Hosting environment: Development
+2024-12-31 21:09:00.768 +02:00 [INF] Content root path: C:\Users\areda\RiderProjects\BaseProject\BaseProject
+2024-12-31 21:09:01.409 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/ - null null
+2024-12-31 21:09:01.470 +02:00 [INF] Request: GET /
+2024-12-31 21:09:01.494 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-31 21:09:01.634 +02:00 [INF] Hello from Serilog!
+2024-12-31 21:09:01.639 +02:00 [INF] Setting HTTP status code 200.
+2024-12-31 21:09:01.647 +02:00 [INF] Writing value of type 'String' as Json.
+2024-12-31 21:09:01.683 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-31 21:09:01.709 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/ - 200 null application/json; charset=utf-8 300.8978ms
+2024-12-31 21:09:14.115 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:09:14.143 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:09:14.144 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:09:14.185 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:09:14.200 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:09:38.142 +02:00 [INF] User profile is available. Using 'C:\Users\areda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-31 21:09:38.478 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 21:09:38.497 +02:00 [INF] Hosting environment: Development
+2024-12-31 21:09:38.497 +02:00 [INF] Content root path: C:\Users\areda\RiderProjects\BaseProject\BaseProject
+2024-12-31 21:09:38.568 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/ - null null
+2024-12-31 21:09:38.628 +02:00 [INF] Request: GET /
+2024-12-31 21:09:38.630 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-31 21:09:38.643 +02:00 [INF] Hello from Serilog!
+2024-12-31 21:09:38.647 +02:00 [INF] Setting HTTP status code 200.
+2024-12-31 21:09:38.652 +02:00 [INF] Writing value of type 'String' as Json.
+2024-12-31 21:09:38.678 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-31 21:09:38.693 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/ - 200 null application/json; charset=utf-8 126.5682ms
+2024-12-31 21:09:38.773 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/favicon.ico - null null
+2024-12-31 21:09:38.777 +02:00 [INF] The file /favicon.ico was not modified
+2024-12-31 21:09:38.778 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/favicon.ico - 304 null image/x-icon 5.7537ms
+2024-12-31 21:09:43.120 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:09:43.128 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:09:43.128 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:09:43.164 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:09:43.180 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:09:47.875 +02:00 [INF] Executed action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4683.647ms.
+2024-12-31 21:09:47.906 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-12-31 21:09:47.925 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 4752.0924ms
+2024-12-31 21:09:47.925 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:09:47.929 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 200 null text/plain; charset=utf-8 4809.1326ms
+2024-12-31 21:19:31.465 +02:00 [INF] User profile is available. Using 'C:\Users\areda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-31 21:19:31.620 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 21:19:31.628 +02:00 [INF] Hosting environment: Development
+2024-12-31 21:19:31.628 +02:00 [INF] Content root path: C:\Users\areda\RiderProjects\BaseProject\BaseProject
+2024-12-31 21:19:31.657 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/ - null null
+2024-12-31 21:19:31.681 +02:00 [INF] Request: GET /
+2024-12-31 21:19:31.683 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-31 21:19:31.691 +02:00 [INF] Hello from Serilog!
+2024-12-31 21:19:31.694 +02:00 [INF] Setting HTTP status code 200.
+2024-12-31 21:19:31.699 +02:00 [INF] Writing value of type 'String' as Json.
+2024-12-31 21:19:31.717 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-31 21:19:31.732 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/ - 200 null application/json; charset=utf-8 75.5588ms
+2024-12-31 21:19:43.826 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:19:43.842 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:19:43.842 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:19:43.854 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:19:43.862 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:19:51.142 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 7283.3125ms
+2024-12-31 21:19:51.143 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:19:51.166 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 35
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 41
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-31 21:19:51.197 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/html; charset=utf-8 7371.1841ms
+2024-12-31 21:19:59.984 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:19:59.985 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:19:59.985 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:19:59.986 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:19:59.987 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:20:02.346 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 2359.341ms
+2024-12-31 21:20:02.346 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:20:02.369 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 35
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 41
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-31 21:20:02.378 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/html; charset=utf-8 2394.1808ms
+2024-12-31 21:20:20.606 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:20:20.607 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:20:20.607 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:20:20.608 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:20:20.608 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:20:22.794 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 2186.2803ms
+2024-12-31 21:20:22.796 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:20:22.832 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 35
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 41
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-31 21:20:22.844 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/html; charset=utf-8 2237.6925ms
+2024-12-31 21:20:28.760 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:20:28.761 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:20:28.761 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:20:28.761 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:20:28.761 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:20:31.693 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 2932.0918ms
+2024-12-31 21:20:31.694 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:20:31.722 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 35
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 41
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-31 21:20:31.732 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/html; charset=utf-8 2971.8613ms
+2024-12-31 21:21:46.880 +02:00 [INF] User profile is available. Using 'C:\Users\areda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-31 21:21:47.073 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 21:21:47.074 +02:00 [INF] Hosting environment: Development
+2024-12-31 21:21:47.074 +02:00 [INF] Content root path: C:\Users\areda\RiderProjects\BaseProject\BaseProject
+2024-12-31 21:21:47.137 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/ - null null
+2024-12-31 21:21:47.170 +02:00 [INF] Request: GET /
+2024-12-31 21:21:47.175 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-31 21:21:47.188 +02:00 [INF] Hello from Serilog!
+2024-12-31 21:21:47.192 +02:00 [INF] Setting HTTP status code 200.
+2024-12-31 21:21:47.199 +02:00 [INF] Writing value of type 'String' as Json.
+2024-12-31 21:21:47.225 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-31 21:21:47.238 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/ - 200 null application/json; charset=utf-8 102.2402ms
+2024-12-31 21:21:58.641 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:21:58.666 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:21:58.666 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:21:58.705 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:21:58.721 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:22:08.271 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 9562.4232ms
+2024-12-31 21:22:08.272 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:22:13.670 +02:00 [ERR] An unhandled exception occurred in Home/TiggerCatch.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 35
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 43
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2024-12-31 21:22:13.685 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null null 15044.3713ms
+2024-12-31 21:29:03.613 +02:00 [INF] User profile is available. Using 'C:\Users\areda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-31 21:29:03.793 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 21:29:03.804 +02:00 [INF] Hosting environment: Development
+2024-12-31 21:29:03.815 +02:00 [INF] Content root path: C:\Users\areda\RiderProjects\BaseProject\BaseProject
+2024-12-31 21:29:03.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:29:03.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/ - null null
+2024-12-31 21:29:03.886 +02:00 [INF] Request: GET /
+2024-12-31 21:29:03.886 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:29:03.889 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-31 21:29:03.889 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:29:03.902 +02:00 [INF] Hello from Serilog!
+2024-12-31 21:29:03.906 +02:00 [INF] Setting HTTP status code 200.
+2024-12-31 21:29:03.913 +02:00 [INF] Writing value of type 'String' as Json.
+2024-12-31 21:29:03.916 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:29:03.934 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:29:10.786 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-31 21:29:10.788 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 6867.5196ms
+2024-12-31 21:29:10.792 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:29:10.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/ - 200 null application/json; charset=utf-8 6942.2851ms
+2024-12-31 21:29:12.910 +02:00 [ERR] An unhandled exception occurred in Home/TiggerCatch.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 34
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 43
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2024-12-31 21:29:20.074 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/plain 16225.2032ms
+2024-12-31 21:29:29.517 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:29:29.519 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:29:29.520 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:29:29.522 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:29:29.523 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:29:37.699 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 8176.6735ms
+2024-12-31 21:29:37.700 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:29:41.127 +02:00 [ERR] An unhandled exception occurred in Home/TiggerCatch.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 34
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 43
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2024-12-31 21:29:56.493 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/plain 26975.9345ms
+2024-12-31 21:30:20.226 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:30:20.231 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:30:20.258 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:30:20.258 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:30:20.258 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:30:22.116 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 1857.64ms
+2024-12-31 21:30:22.117 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:30:22.766 +02:00 [ERR] An unhandled exception occurred in Home/TiggerCatch.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 34
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 43
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2024-12-31 21:30:22.770 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/plain 2543.7947ms
+2024-12-31 21:31:17.988 +02:00 [INF] User profile is available. Using 'C:\Users\areda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-31 21:31:18.166 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 21:31:18.190 +02:00 [INF] Hosting environment: Development
+2024-12-31 21:31:18.191 +02:00 [INF] Content root path: C:\Users\areda\RiderProjects\BaseProject\BaseProject
+2024-12-31 21:31:18.262 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/ - null null
+2024-12-31 21:31:18.326 +02:00 [INF] Request: GET /
+2024-12-31 21:31:18.330 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-31 21:31:18.337 +02:00 [INF] Hello from Serilog!
+2024-12-31 21:31:18.340 +02:00 [INF] Setting HTTP status code 200.
+2024-12-31 21:31:18.346 +02:00 [INF] Writing value of type 'String' as Json.
+2024-12-31 21:31:18.369 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-31 21:31:18.382 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/ - 200 null application/json; charset=utf-8 123.1759ms
+2024-12-31 21:31:19.323 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:31:19.347 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:31:19.348 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:31:19.377 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:31:19.386 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:31:22.915 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 3534.0606ms
+2024-12-31 21:31:22.916 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:31:23.543 +02:00 [ERR] An unhandled exception occurred in Home/TiggerCatch.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 34
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 46
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2024-12-31 21:31:23.553 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/plain 4229.9676ms
+2024-12-31 21:31:23.587 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/favicon.ico - null null
+2024-12-31 21:31:23.596 +02:00 [INF] The file /favicon.ico was not modified
+2024-12-31 21:31:23.598 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/favicon.ico - 304 null image/x-icon 11.261ms
+2024-12-31 21:50:18.808 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44367/Home/TiggerCatch - null null
+2024-12-31 21:50:18.821 +02:00 [INF] Request: GET /Home/TiggerCatch
+2024-12-31 21:50:18.821 +02:00 [INF] Executing endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:50:18.823 +02:00 [INF] Route matched with {action = "TiggerCatch", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TiggerCatch() on controller BaseProject.Controllers.HomeController (BaseProject).
+2024-12-31 21:50:18.823 +02:00 [INF] Executing action method BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) - Validation state: "Valid"
+2024-12-31 21:50:21.445 +02:00 [INF] Executed action BaseProject.Controllers.HomeController.TiggerCatch (BaseProject) in 2621.8906ms
+2024-12-31 21:50:21.445 +02:00 [INF] Executed endpoint 'BaseProject.Controllers.HomeController.TiggerCatch (BaseProject)'
+2024-12-31 21:50:22.011 +02:00 [ERR] An unhandled exception occurred in Home/TiggerCatch.
+System.DivideByZeroException: Attempted to divide by zero.
+   at BaseProject.Controllers.HomeController.TiggerCatch() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Controllers\HomeController.cs:line 34
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Program.cs:line 46
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at BaseProject.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\areda\RiderProjects\BaseProject\BaseProject\Middlewares\ExceptionHandlingMiddleware.cs:line 18
+2024-12-31 21:50:22.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44367/Home/TiggerCatch - 500 null text/plain 3206.9526ms
