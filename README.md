@@ -24,24 +24,24 @@ This project is a well-structured ASP.NET Core application that follows best pra
 
 ## Project Structure
 ```
-├── src
-│   ├── Project.Web (Presentation Layer)
-│   ├── Project.Core (Business Logic Layer)
-│   ├── Project.Infrastructure (Data Access Layer)
-│   ├── Project.Common (Shared Utilities)
-│   ├── Project.Resources (Localization & Resources)
-│   ├── Project.Tests (Unit Tests)
-└── README.md
+├── src  
+│   ├── Project.BaseProject (Presentation Layer)  
+│   │   ├── Project.BaseProject.Resources (Localization & Resources)  
+│   ├── Project.Application (Business Logic Layer)  
+│   ├── Project.Common (General Utilities and mapping)   
+│   ├── Project.Domain (Data Access Layer)
+│   ├── Project.Infrastructure (Repositories)
+└── README.md  
 ```
 
 ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/projectname.git
+   git clone https://github.com/Melqartz/BaseProject.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd projectname
+   cd BaseProject
    ```
 3. Restore dependencies:
    ```sh
@@ -61,12 +61,6 @@ This project is a well-structured ASP.NET Core application that follows best pra
 - The **Exception Handling Middleware** captures all application errors and logs them.
 - The **Authentication System** handles user sign-in, sign-out, and authorization.
 
-## Contribution
-Feel free to contribute to this project by submitting issues and pull requests. Follow the coding standards and guidelines.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
 ## Contact
-For any questions or suggestions, please reach out via [GitHub Issues](https://github.com/yourusername/projectname/issues).
+For any questions or suggestions, please reach out via [GitHub Issues](https://github.com/Melqartz/BaseProject/issues).
 
